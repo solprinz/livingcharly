@@ -13,13 +13,15 @@
         "telas": "Cheniles, linos y panas antimanchas.",
         "patas": "Pirámide, nórdicas, o aluminio pulido",
         "categorias_id": 1,
-        "picture": "pananby.png",
+        "picture": "https://muebles.eproweb.net/pictures/catalogos_pics/1/panamby.jpeg",
         "categoria": "Sofá",
         "medidas": [
             "1,20x80",
             "1,55x80",
             "2,00x80"
         ]
+        ,
+        "medida": "1,20x80 . 1,55x80 . 2,00x80"
     },
     {
         "id": 2,
@@ -35,13 +37,15 @@
         "telas": "Cheniles, linos y panas antimanchas",
         "patas": "Pañuelo, pirámide, nórdicas, o aluminio pulido",
         "categorias_id": 1,
-        "picture": "screenshot_2023_08_30_191659.png",
+        "picture": "https://muebles.eproweb.net/pictures/catalogos_pics/1/panamby.jpeg",
         "categoria": "Sofá",
         "medidas": [
             "1,45x80",
             "1,75x80",
             "2,00x80"
         ]
+        ,
+        "medida": "1,45x80 . 1,75x80 . 2,00x80"
     },
     {
         "id": 3,
@@ -57,12 +61,13 @@
         "telas": "Chenilles, linos y panas antimanchas",
         "patas": "Pañuelo, pirámide, nórdicas, o aluminio pulido",
         "categorias_id": 1,
-        "picture": "",
+        "picture": "https://muebles.eproweb.net/pictures/catalogos_pics/1/panamby.jpeg",
         "categoria": "Sofá",
         "medidas": [
             "1,85x95",
             "XL de 2,20x95"
-        ]
+        ],
+        "medida": "1,85x95 . XL de 2,20x95"
     },
     {
         "id": 4,
@@ -83,7 +88,8 @@
         "medidas": [
             "1,80x95",
             "2,05x95"
-        ]
+        ],
+        "medida": "1,80x95 . 2,05x95"
     },
     {
         "id": 5,
@@ -105,7 +111,8 @@
             "1,60x95",
             "1,85x95",
             "2,25x95"
-        ]
+        ],
+        "medida": "1,60x95 . 1,85x95 . 2,25x95"
     },
     {
         "id": 6,
@@ -126,6 +133,8 @@
         "medidas": [
             "2,10x1,10"
         ]
+        ,
+        "medida": "2,10x1,10"
     },
     {
         "id": 7,
@@ -145,7 +154,8 @@
         "categoria": "Sofá Cama",
         "medidas": [
             "1,90x1,20"
-        ]
+        ] ,
+        "medida": "1,90x1,20"
     },
     {
         "id": 8,
@@ -165,7 +175,8 @@
         "categoria": "Sofá Cama",
         "medidas": [
             "2,25x1,00"
-        ]
+        ],
+        "medida": "2,25x1,00"
     },
     {
         "id": 9,
@@ -185,7 +196,8 @@
         "categoria": "Sofá",
         "medidas": [
             "2,30x1,10"
-        ]
+        ],
+        "medida": "2,30x1,10"
     },
     {
         "id": 10,
@@ -205,7 +217,8 @@
         "categoria": "Esquineros",
         "medidas": [
             "2,20x95 + camastro 80x80\/reversible"
-        ]
+        ],
+        "medida": "2,20x95 + camastro 80x80 reversible"
     },
     {
         "id": 11,
@@ -225,7 +238,8 @@
         "categoria": "Esquineros",
         "medidas": [
             "2,80x1,75m"
-        ]
+        ],
+        "medida": "2,80x1,75m"
     },
     {
         "id": 12,
@@ -245,7 +259,8 @@
         "categoria": "Esquineros",
         "medidas": [
             "2,60x2,40m"
-        ]
+        ],
+        "medida": "2,60x2,40m"
     },
     {
         "id": 13,
@@ -263,7 +278,8 @@
         "categorias_id": 4,
         "picture": "",
         "categoria": "Poltronas",
-        "medidas": []
+        "medidas": [],
+        "medida": ""
     },
     {
         "id": 14,
@@ -281,7 +297,8 @@
         "categorias_id": 4,
         "picture": "",
         "categoria": "Poltronas",
-        "medidas": []
+        "medidas": [],
+        "medida": ""
     },
     {
         "id": 15,
@@ -299,7 +316,8 @@
         "categorias_id": 4,
         "picture": "",
         "categoria": "Poltronas",
-        "medidas": []
+        "medidas": [],
+        "medida": ""
     },
     {
         "id": 16,
@@ -317,7 +335,8 @@
         "categorias_id": 4,
         "picture": "",
         "categoria": "Poltronas",
-        "medidas": []
+        "medidas": [],
+        "medida": ""
     },
     {
         "id": 17,
@@ -335,6 +354,7 @@
         "categorias_id": 4,
         "picture": "",
         "categoria": "Poltronas",
-        "medidas": []
+        "medidas": [],
+        "medida": ""
     }
 ]

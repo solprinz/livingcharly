@@ -13,12 +13,12 @@ export const menuRoutes = [
   },
   {
     id: "catalogo",
-    path: "/category/:categoryName",
+    path: "/catalogo",
     Element: ProductList,
   },
   {
     id: "productDetail",
-    path: "/productDetail/:id",
+    path: "/producto/:id",
     Element: ProductDetail,
   },
   {
@@ -28,7 +28,7 @@ export const menuRoutes = [
   },
   {
     id: "faq",
-    path: "/FAQ",
+    path: "/preguntas-frecuentes",
     Element: Faq,
   },
   {

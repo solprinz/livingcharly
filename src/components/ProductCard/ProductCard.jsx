@@ -1,30 +1,31 @@
 import { Link } from "react-router-dom"
+import vectorImage from '../../assets/Vector.svg';
 
-const ProductCard = ({id, name, code,  brand, price, img,  category, stock, power, tone}) => {
+const ProductCard = ({id, url_string, nombre_producto,  descripcion_corta, estructura, cincha,  relleno_asientos, relleno_respaldos, otra_caracteristica, telas, picture, medidas, medida}) => {
+
 
     return (
-        <li>
-            <div className='product__card'>
-                <figure className="card__banner">
+         <div className = "card-catalogo">
+            <Link to={`/producto/${url_string}`}>
+                <div className='product-img' style={{ 
+                    backgroundImage: `url(${picture})`,backgroundRepeat:"no-repeat", backgroundSize:"cover"
+                    }}>
+                </div>
+                <div className="card-data">
+
+                    <p className="medidas">
+                    <img src={vectorImage} alt="medida" />
+                    {medida}     
+                    </p>
+
+                    <h2>{nombre_producto}</h2>
                     
-                    <img src={img} alt={name} width="189" height="189" loading="lazy"/>
-
-                </figure>
-            <div className="brand-wrapper">
-                <p>{code} - {brand} - {category}</p>
-            </div>
-                <h4 className="card__title">{name}</h4>
-                <div>
-               
-
-                  <data className="price">$ {price}</data>
-                  <p>{power} - {tone}</p>
+                    <p className="description">
+                        {descripcion_corta}
+                    </p>
                 </div>
-                <div className="btn__wrapper">
-                    <Link className="btn__card" to={`/product/${id}`}>See More</Link>
-                </div>
-            </div>
-        </li>
+            </Link>
+        </div>
     )
 }
 
