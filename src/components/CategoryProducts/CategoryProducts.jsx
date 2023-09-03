@@ -4,8 +4,6 @@ import ProductCard from '../ProductCard/ProductCard'
 import { pedirDatos } from '../../helpers/pedirDatos'
 
 
-
-
 const CategoryProducts = ( {value, label} ) => {
 
   const [productos, setProductos] = useState([])
@@ -19,9 +17,9 @@ const CategoryProducts = ( {value, label} ) => {
 
 
   return (
-      <div id={value} className="product"> 
+      <div data-section id={value} className="product"> 
 
-        <h2> {label}</h2>
+        <h2>| {label}</h2>
         <div className="grilla" >
         {
             productos.map((prod) => <ProductCard key={prod.id} {...prod}/>)

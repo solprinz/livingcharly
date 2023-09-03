@@ -8,7 +8,7 @@ import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import "@fontsource/jost";
-
+import { NavLink } from "react-router-dom";
 import MenuItem from "@mui/material/MenuItem";
 import "../../../index.css";
 import { Link } from "react-router-dom";
@@ -30,7 +30,9 @@ export const Navbar = () => {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" style={{
+      backgroundColor: "var(--v-2-txt-body-1, #F6973F)",
+    }}>
       <Container
         maxWidth="xl"
         style={{
@@ -92,8 +94,14 @@ export const Navbar = () => {
             />
           </Typography>
           {/* el catalogo que quede en menu reducido */}
-          <MenuItem onClick={handleCloseNavMenu} className="categorias">
-            <Link to="/productList">Catálogo</Link>
+          <MenuItem onClick={handleCloseNavMenu} className="categorias" style={{
+      marginLeft: "25%",
+    }}>
+            <NavLink to="/catalogo" style={{ fontSize: "18px",marginRight: "5px",
+                fontWeight: "600", letterSpacing: 1
+              }} >{({ isActive, isPending }) => (
+            <span className={isActive ? "active" : ""}>Catálogo</span>
+          )}</NavLink>
           </MenuItem>
           <Box
             sx={{
@@ -102,13 +110,28 @@ export const Navbar = () => {
             }}
           >
             <MenuItem onClick={handleCloseNavMenu} className="categorias">
-              <Link to="/faq">Preguntas frecuentes</Link>
+            <NavLink to="/faq" style={{ fontSize: "18px",marginRight: "5px",
+                fontWeight: "600", letterSpacing: 1
+              }} >{({ isActive, isPending }) => (
+              <span className={isActive ? "active" : ""}>Preguntas frecuentes</span>
+            )}</NavLink>
+
             </MenuItem>
             <MenuItem onClick={handleCloseNavMenu} className="categorias">
-              <Link to="/nosotros">Sobre nosotros</Link>
+            <NavLink to="/nosotros" style={{ fontSize: "18px",marginRight: "5px",
+                fontWeight: "600", letterSpacing: 1
+              }} >{({ isActive, isPending }) => (
+              <span className={isActive ? "active" : ""}>Sobre nosotros</span>
+            )}</NavLink>
+
             </MenuItem>
             <MenuItem onClick={handleCloseNavMenu} className="categorias">
-              <Link to="/contacto">Contacto</Link>
+            <NavLink to="/contacto" style={{ fontSize: "18px",marginRight: "5px",
+                fontWeight: "600", letterSpacing: 1
+              }} >{({ isActive, isPending }) => (
+              <span className={isActive ? "active" : ""}>Contacto</span>
+            )}</NavLink>
+             
             </MenuItem>
           </Box>
           <Box

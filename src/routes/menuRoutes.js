@@ -18,7 +18,7 @@ export const menuRoutes = [
   },
   {
     id: "productDetail",
-    path: "/producto/:id",
+    path: "/producto/:urlString",
     Element: ProductDetail,
   },
   {
