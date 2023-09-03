@@ -13,7 +13,10 @@
         "telas": "Cheniles, linos y panas antimanchas.",
         "patas": "Pirámide, nórdicas, o aluminio pulido",
         "categorias_id": 1,
-        "picture": "https://muebles.eproweb.net/pictures/catalogos_pics/1/panamby.jpeg",
+        "picture1": "https://muebles.eproweb.net/pictures/catalogos_pics/1/panamby.jpeg",
+        "picture2": "https://muebles.eproweb.net/pictures/catalogos_pics/1/panamby.jpeg",
+        "picture3": "https://muebles.eproweb.net/pictures/catalogos_pics/1/panamby.jpeg",
+        "picture4": "https://muebles.eproweb.net/pictures/catalogos_pics/1/panamby.jpeg",
         "categoria": "Sofá",
         "medidas": [
             "1,20x80",
@@ -37,7 +40,10 @@
         "telas": "Cheniles, linos y panas antimanchas",
         "patas": "Pañuelo, pirámide, nórdicas, o aluminio pulido",
         "categorias_id": 1,
-        "picture": "https://muebles.eproweb.net/pictures/catalogos_pics/1/panamby.jpeg",
+        "picture1": "https://muebles.eproweb.net/pictures/catalogos_pics/1/panamby.jpeg",
+        "picture2": "https://muebles.eproweb.net/pictures/catalogos_pics/1/panamby.jpeg",
+        "picture3": "https://muebles.eproweb.net/pictures/catalogos_pics/1/panamby.jpeg",
+        "picture4": "https://muebles.eproweb.net/pictures/catalogos_pics/1/panamby.jpeg",
         "categoria": "Sofá",
         "medidas": [
             "1,45x80",
@@ -61,13 +67,23 @@
         "telas": "Chenilles, linos y panas antimanchas",
         "patas": "Pañuelo, pirámide, nórdicas, o aluminio pulido",
         "categorias_id": 1,
-        "picture": "https://muebles.eproweb.net/pictures/catalogos_pics/1/panamby.jpeg",
+        "picture1": "https://muebles.eproweb.net/pictures/catalogos_pics/1/panamby.jpeg",
+        "picture2": "https://muebles.eproweb.net/pictures/catalogos_pics/1/panamby.jpeg",
+        "picture3": "https://muebles.eproweb.net/pictures/catalogos_pics/1/panamby.jpeg",
+        "picture4": "https://muebles.eproweb.net/pictures/catalogos_pics/1/panamby.jpeg",
         "categoria": "Sofá",
         "medidas": [
             "1,85x95",
             "XL de 2,20x95"
         ],
-        "medida": "1,85x95 •  XL de 2,20x95"
+        "medida": "1,85x95 •  XL de 2,20x95",
+        "medidaMancho": "",
+        "medidaMprofundidad": "",
+        "medidaLancho": "185",
+        "medidaLprofundidad": "95",
+        "medidaXLancho": "220",
+        "medidaXLprofundidad": "95"
+
     },
     {
         "id": 4,
@@ -89,7 +105,13 @@
             "1,80x95",
             "2,05x95"
         ],
-        "medida": "1,80x95 • 2,05x95"
+        "medida": "1,80x95 • 2,05x95",
+        "medidaMancho": "",
+        "medidaMprofundidad": "",
+        "medidaLancho": "180",
+        "medidaLprofundidad": "95",
+        "medidaXLancho": "205",
+        "medidaXLprofundidad": "95"
     },
     {
         "id": 5,
@@ -112,7 +134,13 @@
             "1,85x95",
             "2,25x95"
         ],
-        "medida": "1,60x95 • 1,85x95 • 2,25x95"
+        "medida": "1,60x95 • 1,85x95 • 2,25x95",
+        "medidaMancho": "160",
+        "medidaMprofundidad": "95",
+        "medidaLancho": "185",
+        "medidaLprofundidad": "95",
+        "medidaXLancho": "225",
+        "medidaXLprofundidad": "95"
     },
     {
         "id": 6,
@@ -134,7 +162,13 @@
             "2,10x1,10"
         ]
         ,
-        "medida": "2,10x1,10"
+        "medida": "2,10x1,10",
+        "medidaMancho": "",
+        "medidaMprofundidad": "",
+        "medidaLancho": "",
+        "medidaLprofundidad": "",
+        "medidaXLancho": "210",
+        "medidaXLprofundidad": "110"
     },
     {
         "id": 7,
@@ -155,7 +189,13 @@
         "medidas": [
             "1,90x1,20"
         ] ,
-        "medida": "1,90x1,20"
+        "medida": "1,90x1,20",
+        "medidaMancho": "",
+        "medidaMprofundidad": "",
+        "medidaLancho": "",
+        "medidaLprofundidad": "",
+        "medidaXLancho": "190",
+        "medidaXLprofundidad": "120"
     },
     {
         "id": 8,
@@ -176,7 +216,13 @@
         "medidas": [
             "2,25x1,00"
         ],
-        "medida": "2,25x1,00"
+        "medida": "2,25x1,00",
+        "medidaMancho": "",
+        "medidaMprofundidad": "",
+        "medidaLancho": "",
+        "medidaLprofundidad": "",
+        "medidaXLancho": "225",
+        "medidaXLprofundidad": "100"
     },
     {
         "id": 9,
@@ -197,7 +243,13 @@
         "medidas": [
             "2,30x1,10"
         ],
-        "medida": "2,30x1,10"
+        "medida": "2,30x1,10",
+        "medidaMancho": "",
+        "medidaMprofundidad": "",
+        "medidaLancho": "",
+        "medidaLprofundidad": "",
+        "medidaXLancho": "230",
+        "medidaXLprofundidad": "110"
     },
     {
         "id": 10,
@@ -208,7 +260,7 @@
         "cincha": "elástica multifilamento",
         "relleno_asientos": "Asientos: Alta densidad de 15cm de altura. 26kgm\u00b3 Cannon, con cierre",
         "relleno_respaldos": "Respaldos: vellón siliconado. con cierre",
-        "otra_caracteristica": "",
+        "otra_caracteristica": "2,20x95 + camastro 80x80\/reversible",
         "descripcion_larga": "",
         "telas": "Cheniles, linos y panas antimanchas",
         "patas": "De madera pañuelo, pirámide o aluminio pulido",
@@ -218,7 +270,13 @@
         "medidas": [
             "2,20x95 + camastro 80x80\/reversible"
         ],
-        "medida": "2,20x95 + camastro 80x80 reversible"
+        "medida": "2,20x95 + camastro 80x80 reversible",
+        "medidaMancho": "",
+        "medidaMprofundidad": "",
+        "medidaLancho": "",
+        "medidaLprofundidad": "",
+        "medidaXLancho": "220",
+        "medidaXLprofundidad": "95"
     },
     {
         "id": 11,
@@ -239,7 +297,13 @@
         "medidas": [
             "2,80x1,75m"
         ],
-        "medida": "2,80x1,75m"
+        "medida": "2,80x1,75m",
+        "medidaMancho": "",
+        "medidaMprofundidad": "",
+        "medidaLancho": "",
+        "medidaLprofundidad": "",
+        "medidaXLancho": "280",
+        "medidaXLprofundidad": "175"
     },
     {
         "id": 12,
@@ -260,7 +324,13 @@
         "medidas": [
             "2,60x2,40m"
         ],
-        "medida": "2,60x2,40m"
+        "medida": "2,60x2,40m",
+        "medidaMancho": "",
+        "medidaMprofundidad": "",
+        "medidaLancho": "",
+        "medidaLprofundidad": "",
+        "medidaXLancho": "260",
+        "medidaXLprofundidad": "240"
     },
     {
         "id": 13,
@@ -279,7 +349,13 @@
         "picture": "",
         "categoria": "Poltronas",
         "medidas": [],
-        "medida": ""
+        "medida": "",
+        "medidaMancho": "",
+        "medidaMprofundidad": "",
+        "medidaLancho": "",
+        "medidaLprofundidad": "",
+        "medidaXLancho": "",
+        "medidaXLprofundidad": ""
     },
     {
         "id": 14,
@@ -298,7 +374,13 @@
         "picture": "",
         "categoria": "Poltronas",
         "medidas": [],
-        "medida": ""
+        "medida": "",
+        "medidaMancho": "",
+        "medidaMprofundidad": "",
+        "medidaLancho": "",
+        "medidaLprofundidad": "",
+        "medidaXLancho": "",
+        "medidaXLprofundidad": ""
     },
     {
         "id": 15,
@@ -317,7 +399,13 @@
         "picture": "",
         "categoria": "Poltronas",
         "medidas": [],
-        "medida": ""
+        "medida": "",
+        "medidaMancho": "",
+        "medidaMprofundidad": "",
+        "medidaLancho": "",
+        "medidaLprofundidad": "",
+        "medidaXLancho": "",
+        "medidaXLprofundidad": ""
     },
     {
         "id": 16,
@@ -336,7 +424,13 @@
         "picture": "",
         "categoria": "Poltronas",
         "medidas": [],
-        "medida": ""
+        "medida": "",
+        "medidaMancho": "",
+        "medidaMprofundidad": "",
+        "medidaLancho": "",
+        "medidaLprofundidad": "",
+        "medidaXLancho": "",
+        "medidaXLprofundidad": ""
     },
     {
         "id": 17,
@@ -355,6 +449,12 @@
         "picture": "",
         "categoria": "Poltronas",
         "medidas": [],
-        "medida": ""
+        "medida": "",
+        "medidaMancho": "",
+        "medidaMprofundidad": "",
+        "medidaLancho": "",
+        "medidaLprofundidad": "",
+        "medidaXLancho": "",
+        "medidaXLprofundidad": ""
     }
 ]

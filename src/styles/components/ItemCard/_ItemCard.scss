@@ -1,0 +1,34 @@
+.producto-card {
+    width: 100%;
+    display: flex;
+    flex: 1 0 0;
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+
+}
+
+@media (min-width: 768px) {
+    .producto-card {
+        width: 100%;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 15px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .producto-card {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+
+    
+    }
+}

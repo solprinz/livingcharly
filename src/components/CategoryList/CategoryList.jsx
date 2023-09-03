@@ -84,9 +84,7 @@ const CategoryList = () => {
                       <HashLink smooth className="underlined-btn" to="#">Creá tu diseño </HashLink>
                       </li>
                     </ul> 
-            </div>
-
-    
+            </div>  
 )
 }
 

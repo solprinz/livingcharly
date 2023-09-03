@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom"
 import vectorImage from '../../assets/Vector.svg';
 
-const ProductCard = ({id, url_string, nombre_producto,  descripcion_corta, estructura, cincha,  relleno_asientos, relleno_respaldos, otra_caracteristica, telas, picture, medidas, medida}) => {
+const ProductCard = ({id, url_string, nombre_producto,  descripcion_corta, estructura, cincha,  relleno_asientos, relleno_respaldos, otra_caracteristica, telas, picture1, medidas, medida}) => {
 
 
     return (
          <div className = "card-catalogo">
             <Link to={`/producto/${url_string}`}>
                 <div className='product-img' style={{ 
-                    backgroundImage: `url(${picture})`,backgroundRepeat:"no-repeat", backgroundSize:"cover"
+                    backgroundImage: `url(${picture1})`,backgroundRepeat:"no-repeat", backgroundSize:"cover"
                     }}>
                 </div>
                 <div className="card-data">
