@@ -12,6 +12,8 @@ import { NavLink } from "react-router-dom";
 import MenuItem from "@mui/material/MenuItem";
 import "../../../index.css";
 import { Link } from "react-router-dom";
+import LogoFull from "/logo-full-vector.png";
+import LogoMobile from "/logo-mobile-vector.png";
 
 export const Navbar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -58,7 +60,7 @@ export const Navbar = () => {
             }}
           >
             <img
-              src="../../../../img/Variante=Logo Full White Vector.png"
+              src={LogoFull}
               alt="Logo"
               loading="lazy"
               style={{
@@ -88,7 +90,7 @@ export const Navbar = () => {
             }}
           >
             <img
-              src="../../../../img/Variante=Logo Mobile Vector.png"
+              src={LogoMobile}
               alt="Logo"
               loading="lazy"
             />

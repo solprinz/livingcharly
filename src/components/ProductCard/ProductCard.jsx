@@ -14,8 +14,13 @@ const ProductCard = ({id, url_string, nombre_producto,  descripcion_corta, estru
                 <div className="card-data">
 
                     <p className="medidas">
-                    <img src={vectorImage} alt="medida" />
-                    {medida}     
+                    {
+                        medida !== ''  ? 
+                        <span><img src={vectorImage} alt="medida" /> 
+                        {medida} </span> 
+                        : ''
+                    }
+                       
                     </p>
 
                     <h2>{nombre_producto}</h2>

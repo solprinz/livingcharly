@@ -14,8 +14,6 @@ const ItemCard = ({id, url_string, nombre_producto,  descripcion_corta, estructu
                 <ItemDescription nombre_producto={nombre_producto} medidas={medidas} medidaMancho={medidaMancho} medidaMprofundidad={medidaMprofundidad} medidaLancho={medidaLancho} medidaLprofundidad={medidaLprofundidad} medidaXLancho={medidaXLancho} medidaXLprofundidad={medidaXLprofundidad} descripcion_larga={descripcion_larga} otra_caracteristica={otra_caracteristica} />
             
             </div>
-           
-
         </div>
     )
 }

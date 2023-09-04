@@ -1,4 +1,7 @@
 import "../layout.css";
+import LogoFull from "/logo-full-vector.png";
+import LogoFacebook from "/Logo Facebook.svg";
+import LogoIG from "/Logo IG.svg";
 
 export const Footer = () => {
   return (
@@ -8,7 +11,7 @@ export const Footer = () => {
           <div className="row">
             <div style={{ width: "284px" }}>
               {/* logo, ¡seguinos! */}
-              <img src="../../../../img/Variante=Logo Full Vector.png"></img>
+              <img src={LogoFull}></img>
               <div
                 style={{
                   color: "var(--v-2-txt-body-1, #F6973F)",
@@ -20,14 +23,14 @@ export const Footer = () => {
               <div>
                 <a href="https://wwww.facebook.com/">
                   <img
-                    src="../../../../img/Logo Facebook.svg"
+                    src={LogoFacebook}
                     alt=""
                     style={{ padding: "12px 12px 12px 0px" }}
                   />
                 </a>
                 <a href="https://www.instagram.com">
                   <img
-                    src="../../../../img/Logo IG.svg"
+                    src={LogoIG}
                     alt=""
                     style={{ padding: "12px" }}
                   />
