@@ -1,0 +1,24 @@
+.item-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    align-self: stretch;
+
+    .button {
+        width: 100%;
+        padding: 12px 16px;
+        border-radius: 12px;
+        background: var(--final-primary-naranja-charly, #F55B1C);
+        color: var(--final-neutral-f, #FFF);
+        text-align: center;
+        /* V2/Botones */
+        font-family: Jost;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px; /* 120% */
+
+    }
+}

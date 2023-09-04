@@ -2,7 +2,7 @@ import { useState } from "react"
 import { Link, useNavigate } from "react-router-dom"
 
 
-const ItemBreadcrumb = ({id, url_string, nombre_producto,  descripcion_corta, estructura, cincha,  relleno_asientos, relleno_respaldos, otra_caracteristica, telas, picture, medidas, medida, categoria}) => {
+const ItemBreadcrumb = ({nombre_producto, categoria}) => {
 
     return (
         <div>

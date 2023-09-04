@@ -13,6 +13,7 @@ import MenuItem from "@mui/material/MenuItem";
 import "../../../index.css";
 import { Link } from "react-router-dom";
 import LogoFull from "/logo-full-vector.png";
+import LogoWhite from "/full-white-vector.png";
 import LogoMobile from "/logo-mobile-vector.png";
 
 export const Navbar = () => {
@@ -60,7 +61,7 @@ export const Navbar = () => {
             }}
           >
             <img
-              src={LogoFull}
+              src={LogoWhite}
               alt="Logo"
               loading="lazy"
               style={{

@@ -2,7 +2,7 @@
     margin: 0;
     width: 100%;
     display: flex;
-    flex: 1 0 0;
+    
     align-self: stretch;
     flex-direction: column;
     align-items: center;
@@ -36,14 +36,12 @@
 
 }
 
-
-
-
 @media (min-width: 768px) {
     .pictures {
-        
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: 50%;
         flex-direction: row-reverse;
-        width: 60%;
         gap: 15px;
 
         .main-picture {
@@ -63,7 +61,7 @@
             align-items: center;
             gap: 16px;
             justify-content: space-between;
-            width:25%;
+            width:30%;
             align-items: flex-start;
     
             img {
@@ -76,11 +74,24 @@
 
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     .pictures {
         
         flex-direction: row-reverse;
-        width: 60%;
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: 60%;
+    
+    }
+}
+
+@media (min-width: 1300px) {
+    .pictures {
+        
+        flex-direction: row-reverse;
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: 70%;
     
     }
 }

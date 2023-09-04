@@ -1,0 +1,55 @@
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 0px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 24px 32px;
+    align-self: stretch;
+    flex-wrap: wrap;
+
+
+        .feature-box {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-bottom: 0px;
+            align-items: flex-start;
+            align-content: flex-start;
+            gap: 24px 32px;
+            align-self: stretch;
+            
+
+            .img {
+                width: 40px;
+                height: 40px;
+            }
+
+            .info {
+                display: flex;
+                flex-direction: column;
+                color: var(--final-neutral-parrafo, #585756);
+                /* V2/Prod Size */
+               
+
+                .info-title {
+                    font-family: Jost;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 24px; /* 150% */
+                    letter-spacing: 0.16px;
+                }
+
+                p {
+                    font-family: Jost;
+                    font-weight: 400;
+                    line-height: 24px; /* 150% */
+                }
+               
+            }
+        }
+
+        
+    
+}

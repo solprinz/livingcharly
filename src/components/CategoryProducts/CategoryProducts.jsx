@@ -13,8 +13,6 @@ const CategoryProducts = ( {value, label} ) => {
     setProductos( res.filter((prod) => prod.categoria === label) )
   })
   .catch((err) => console.log(err))
-  /* .finally(() => setLoading(false)) */
-
 
   return (
       <div data-section id={value} className="product"> 

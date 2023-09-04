@@ -18,8 +18,7 @@ export const ProductList = () => {
     })
     .catch((err) => console.log(err))
     .finally(() => setLoading(false))
-    
-  
+      
     return (
         <div>
             <Titles title={'Conocé nuestros productos'} subtitle={'CATÁLOGO'} /> 

@@ -1,8 +1,9 @@
-import { useState } from "react"
-import useMobile from "../../hooks/useMobile"
 
+import MedidaItem from '../MedidaItem/MedidaItem'
+import ItemFeatures from '../ItemFeatures/ItemFeatures'
+import ItemButton from '../ItemButton/ItemButton'
 
-const ItemDescription = ({nombre_producto, medidaMancho,  medidaMprofundidad, medidaLancho, medidaLprofundidad,  medidaXLancho,  medidaXLprofundidad, descripcion_larga, otra_caracteristica}) => {
+const ItemDescription = ({nombre_producto, descripcion_corta, medida, medidaMancho,  medidaMprofundidad, medidaLancho, medidaLprofundidad,  medidaXLancho,  medidaXLprofundidad, descripcion_larga, patas, otra_caracteristica, categorias_id, categoria}) => {
 
     return (
 
@@ -10,20 +11,17 @@ const ItemDescription = ({nombre_producto, medidaMancho,  medidaMprofundidad, me
                 <div className="title">
                     <h1>{nombre_producto}</h1>
                 </div>
-                <div className="medidas">
-                    <div className="medida">
-                        
-                    </div>
-                </div>
+                
+                <MedidaItem medida={medida} medidaMancho={medidaMancho} medidaMprofundidad={medidaMprofundidad} medidaLancho={medidaLancho} medidaLprofundidad={medidaLprofundidad} medidaXLancho={medidaXLancho} medidaXLprofundidad={medidaXLprofundidad} otra_caracteristica={otra_caracteristica} categoria={categoria} />
+                
                 <div className="product-description">
-                    
+                    {descripcion_corta} <br />
+                    {descripcion_larga}
                 </div>
-                <div className="features">
-                    
-                </div>
-                <div className="cta">
-                    
-                </div>
+
+                <ItemFeatures categoria={categoria}  />
+
+                <ItemButton  />
            
             </div>
 

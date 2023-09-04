@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import vectorImage from '../../assets/Vector.svg';
 
-const ProductCard = ({id, url_string, nombre_producto,  descripcion_corta, estructura, cincha,  relleno_asientos, relleno_respaldos, otra_caracteristica, telas, picture1, medidas, medida}) => {
+const ProductCard = ({url_string, nombre_producto,  descripcion_corta,  picture1,  medida}) => {
 
 
     return (
