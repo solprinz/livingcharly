@@ -95,9 +95,7 @@ export const Navbar = () => {
             <img src={LogoMobile} alt="Logo" loading="lazy" />
           </Typography>
           {/* el catalogo que quede en menu reducido */}
-          <MenuItem onClick={handleCloseNavMenu} className="categorias">
-            <Link to="/catalogo">Catálogo</Link>
-          </MenuItem>
+
           <MenuItem
             onClick={handleCloseNavMenu}
             className="categorias"
@@ -127,7 +125,7 @@ export const Navbar = () => {
           >
             <MenuItem onClick={handleCloseNavMenu} className="categorias">
               <NavLink
-                to="/faq"
+                to="/preguntas-frecuentes"
                 style={{
                   fontSize: "18px",
                   marginRight: "5px",
@@ -221,7 +219,7 @@ export const Navbar = () => {
                   backgroundColor: "#F6973F",
                 }}
               >
-                <Link to="/faq">Preguntas frecuentes</Link>
+                <Link to="/preguntas-frecuentes">Preguntas frecuentes</Link>
               </MenuItem>
               <MenuItem
                 onClick={handleCloseNavMenu}
