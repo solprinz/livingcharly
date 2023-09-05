@@ -1,12 +1,16 @@
 import { Link } from "react-router-dom"
+import React, { useRef, useState } from 'react';
 import vectorImage from '../../assets/Vector.svg';
+import {  SwiperSlide } from 'swiper/react';
 
-const ProductCard = ({url_string, nombre_producto,  descripcion_corta,  picture1,  medida}) => {
+
+const OtraCard = ({url_string, nombre_producto,  picture1,  medida}) => {
 
     return (
-         <div className = "card-catalogo">
+        <SwiperSlide>
+         <div className = "card-destacados">
             <Link to={`/producto/${url_string}`}>
-                <div className='product-img' style={{ 
+                <div className='destacado-img' style={{ 
                     backgroundImage: `url(${picture1})`,backgroundRepeat:"no-repeat", backgroundSize:"cover"
                     }}>
                 </div>
@@ -21,14 +25,12 @@ const ProductCard = ({url_string, nombre_producto,  descripcion_corta,  picture1
                     </p>
 
                     <h2>{nombre_producto}</h2>
-                    
-                    <p className="description">
-                        {descripcion_corta}
-                    </p>
+ 
                 </div>
             </Link>
         </div>
+        </SwiperSlide>
     )
 }
 
-export default ProductCard
+export default OtraCard

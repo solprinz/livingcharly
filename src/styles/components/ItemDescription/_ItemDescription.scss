@@ -12,6 +12,7 @@
     .title {
         width: 100%;
         align-self: stretch;
+        padding: 16px 0;
 
         h1 {
             color: var(--final-neutral-texto-contraste, #1E1E1E);
@@ -33,6 +34,7 @@
         font-style: normal;
         font-weight: 400;
         line-height: 24px; /* 150% */
+        padding: 30px 5px 35px;
     }
 
     

@@ -4,6 +4,7 @@ import { pedirDatos } from '../../helpers/pedirDatos'
 import Loader from '../Loader/Loader'
 import { useParams } from 'react-router-dom'
 import ItemCard from '../ItemCard/ItemCard'
+import ProductosRelacionados from '../ProductosRelacionados/ProductosRelacionados'
 
 export const ProductDetail = () => {
 
@@ -30,6 +31,8 @@ export const ProductDetail = () => {
                 ? <Loader/>
                 : <ItemCard {...item}/>
            }
+
+            <ProductosRelacionados {...item}  />
         </div>
     )
 }

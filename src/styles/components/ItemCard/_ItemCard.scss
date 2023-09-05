@@ -34,6 +34,12 @@
         height: 24px;
         flex-shrink: 0;
     }
+
+    a {
+        color: var(--final-neutral-texto-contraste, #1E1E1E);
+        text-decoration: underline;
+        text-align: left;
+    }
 }
 
 @media (min-width: 768px) {

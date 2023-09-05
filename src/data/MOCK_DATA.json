@@ -6,8 +6,8 @@
         "descripcion_corta": "Sólida estructura de álamo con telas anti manchas y opciones de tamaño para una comodidad personalizada",
         "estructura": "Madera maciza álamo estacionado, encolado y con escuadras",
         "cincha": "elástica multifilamento",
-        "relleno_asientos": "Asientos: Alta densidad de 10cm de altura. 26kgm3 Cannon, Fijo.",
-        "relleno_respaldos": "Respaldos: copos cubiertos de una manta de goma espuma, con cierre.",
+        "relleno_asientos": " Alta densidad de 10cm de altura. 26kgm3 Cannon, Fijo.",
+        "relleno_respaldos": "copos cubiertos de una manta de goma espuma, con cierre.",
         "otra_caracteristica": "",
         "descripcion_larga": "Sólida estructura de álamo con telas anti manchas y opciones de tamaño para una comodidad personalizada",
         "telas": "Cheniles, linos y panas antimanchas.",
@@ -34,7 +34,8 @@
         "medidaLancho": "155",
         "medidaLprofundidad": "80",
         "medidaXLancho": "200",
-        "medidaXLprofundidad": "80"
+        "medidaXLprofundidad": "80",
+        "destacado": "si"
     },
     {
         "id": 2,
@@ -43,8 +44,8 @@
         "descripcion_corta": "Estilo y confort en un diseño con opciones de tamaño para adaptarse a tu hogar.",
         "estructura": "Madera maciza álamo estacionado, encolado y con escuadras",
         "cincha": "elástica multifilamento",
-        "relleno_asientos": "Asientos: Alta densidad de 15cm de altura. 26kgm\u00b3 Cannon, con cierre",
-        "relleno_respaldos": "Respaldos: vellón siliconado. con cierre",
+        "relleno_asientos": " Alta densidad de 15cm de altura. 26kgm\u00b3 Cannon, con cierre",
+        "relleno_respaldos": "vellón siliconado. con cierre",
         "otra_caracteristica": "",
         "descripcion_larga": "Estilo y confort en un diseño con opciones de tamaño para adaptarse a tu hogar.",
         "telas": "Cheniles, linos y panas antimanchas",
@@ -72,7 +73,8 @@
         "medidaLancho": "175",
         "medidaLprofundidad": "80",
         "medidaXLancho": "200",
-        "medidaXLprofundidad": "80"
+        "medidaXLprofundidad": "80",
+        "destacado": "si"
     },
     {
         "id": 3,
@@ -81,8 +83,8 @@
         "descripcion_corta": "Madera maciza, rellenos de alta densidad y telas anti manchas para un lujo duradero.",
         "estructura": "Madera maciza álamo estacionado, encolado y con escuadras",
         "cincha": "elástica multifilamento",
-        "relleno_asientos": "Asientos: Alta densidad de 15cm de altura. 26kgm\u00b3 Cannon, con cierre",
-        "relleno_respaldos": "Respaldos: vellón siliconado. con cierre",
+        "relleno_asientos": " Alta densidad de 15cm de altura. 26kgm\u00b3 Cannon, con cierre",
+        "relleno_respaldos": "vellón siliconado. con cierre",
         "otra_caracteristica": "",
         "descripcion_larga": " Cada detalle de diseño y confort se fusiona para abrazarte. Desde su estructura de madera maciza hasta la suavidad de las telas anti manchas. Tu sofá perfecto te espera, ¡solicita tu cotización y transformá tu hogar hoy mismo!",
         "telas": "Chenilles, linos y panas antimanchas",
@@ -106,7 +108,8 @@
         "medidaLancho": "185",
         "medidaLprofundidad": "95",
         "medidaXLancho": "220",
-        "medidaXLprofundidad": "95"
+        "medidaXLprofundidad": "95",
+        "destacado": "si"
 
     },
     {
@@ -116,8 +119,8 @@
         "descripcion_corta": "Diseño moderno con rellenos de alta densidad para una experiencia de descanso excepcional.",
         "estructura": "Madera maciza álamo estacionado, encolado y con escuadras",
         "cincha": "elástica multifilamento",
-        "relleno_asientos": "Asientos: Alta densidad de 15cm de altura. 26kgm\u00b3 Cannon, con cierre",
-        "relleno_respaldos": "Respaldos: vellón siliconado. con cierre",
+        "relleno_asientos": " Alta densidad de 15cm de altura. 26kgm\u00b3 Cannon, con cierre",
+        "relleno_respaldos": "vellón siliconado. con cierre",
         "otra_caracteristica": "",
         "descripcion_larga": "",
         "telas": "Cheniles, linos y panas antimanchas",
@@ -141,7 +144,8 @@
         "medidaLancho": "180",
         "medidaLprofundidad": "95",
         "medidaXLancho": "205",
-        "medidaXLprofundidad": "95"
+        "medidaXLprofundidad": "95",
+        "destacado": "si"
     },
     {
         "id": 5,
@@ -150,8 +154,8 @@
         "descripcion_corta": "Una combinación perfecta entre calidad y confort con opciones en tamaños y acabados de patas.",
         "estructura": "Madera maciza álamo estacionado, encolado y con escuadras",
         "cincha": "elástica multifilamento",
-        "relleno_asientos": "Asientos: Alta densidad de 15cm de altura. 26kgm\u00b3 Cannon, con cierre",
-        "relleno_respaldos": "Respaldos: vellón siliconado. con cierre",
+        "relleno_asientos": " Alta densidad de 15cm de altura. 26kgm\u00b3 Cannon, con cierre",
+        "relleno_respaldos": "vellón siliconado. con cierre",
         "otra_caracteristica": "",
         "descripcion_larga": "",
         "telas": "Cheniles, linos y panas antimanchas",
@@ -176,7 +180,8 @@
         "medidaLancho": "185",
         "medidaLprofundidad": "95",
         "medidaXLancho": "225",
-        "medidaXLprofundidad": "95"
+        "medidaXLprofundidad": "95",
+        "destacado": "si"
     },
     {
         "id": 6,
@@ -185,8 +190,8 @@
         "descripcion_corta": "Sofisticación y comodidad en un diseño con detalles de vivos y patas de madera pañuelo.",
         "estructura": "Madera maciza álamo estacionado, encolado y con escuadras",
         "cincha": "elástica multifilamento entrelazada con resortes zigzag",
-        "relleno_asientos": "Asientos: Alta densidad de 20cm de altura. 26kgm\u00b3 Cannon, cubierto de acrotop, con cierre",
-        "relleno_respaldos": "Respaldos: vellón siliconado. con cierre",
+        "relleno_asientos": " Alta densidad de 20cm de altura. 26kgm\u00b3 Cannon, cubierto de acrotop, con cierre",
+        "relleno_respaldos": "vellón siliconado. con cierre",
         "otra_caracteristica": "",
         "descripcion_larga": "",
         "telas": "Cheniles, linos y panas antimanchas",
@@ -210,7 +215,8 @@
         "medidaLancho": "",
         "medidaLprofundidad": "",
         "medidaXLancho": "210",
-        "medidaXLprofundidad": "110"
+        "medidaXLprofundidad": "110",
+        "destacado": "no"
     },
     {
         "id": 7,
@@ -243,7 +249,8 @@
         "medidaLancho": "",
         "medidaLprofundidad": "",
         "medidaXLancho": "190",
-        "medidaXLprofundidad": "120"
+        "medidaXLprofundidad": "120",
+        "destacado": "no"
     },
     {
         "id": 8,
@@ -276,7 +283,8 @@
         "medidaLancho": "",
         "medidaLprofundidad": "",
         "medidaXLancho": "225",
-        "medidaXLprofundidad": "100"
+        "medidaXLprofundidad": "100",
+        "destacado": "no"
     },
     {
         "id": 9,
@@ -309,7 +317,8 @@
         "medidaLancho": "",
         "medidaLprofundidad": "",
         "medidaXLancho": "230",
-        "medidaXLprofundidad": "110"
+        "medidaXLprofundidad": "110",
+        "destacado": "no"
     },
     {
         "id": 10,
@@ -318,8 +327,8 @@
         "descripcion_corta": "Diseño y espacio en un esquinero con camastro reversible, ideal para tu sala de estar.",
         "estructura": "Madera maciza álamo estacionado, encolado y con escuadras",
         "cincha": "elástica multifilamento",
-        "relleno_asientos": "Asientos: Alta densidad de 15cm de altura. 26kgm\u00b3 Cannon, con cierre",
-        "relleno_respaldos": "Respaldos: vellón siliconado. con cierre",
+        "relleno_asientos": " Alta densidad de 15cm de altura. 26kgm\u00b3 Cannon, con cierre",
+        "relleno_respaldos": "vellón siliconado. con cierre",
         "otra_caracteristica": "2,20x95 + camastro 80x80\/reversible",
         "descripcion_larga": "",
         "telas": "Cheniles, linos y panas antimanchas",
@@ -342,7 +351,8 @@
         "medidaLancho": "",
         "medidaLprofundidad": "",
         "medidaXLancho": "220",
-        "medidaXLprofundidad": "95"
+        "medidaXLprofundidad": "95",
+        "destacado": "no"
     },
     {
         "id": 11,
@@ -351,8 +361,8 @@
         "descripcion_corta": "Elegancia y confort en un esquinero con patas de madera o aluminio pulido.",
         "estructura": "Madera maciza álamo estacionado, encolado y con escuadras",
         "cincha": "elástica multifilamento",
-        "relleno_asientos": "Asientos: Alta densidad de 15cm de altura. 26kgm\u00b3 Cannon, con cierre",
-        "relleno_respaldos": "Respaldos: vellón siliconado. con cierre",
+        "relleno_asientos": " Alta densidad de 15cm de altura. 26kgm\u00b3 Cannon, con cierre",
+        "relleno_respaldos": "vellón siliconado. con cierre",
         "otra_caracteristica": "",
         "descripcion_larga": "",
         "telas": "Cheniles, linos y panas antimanchas",
@@ -375,7 +385,8 @@
         "medidaLancho": "",
         "medidaLprofundidad": "",
         "medidaXLancho": "280",
-        "medidaXLprofundidad": "175"
+        "medidaXLprofundidad": "175",
+        "destacado": "no"
     },
     {
         "id": 12,
@@ -384,8 +395,8 @@
         "descripcion_corta": "El esquinero más amplio y cómodo, perfecto para grandes reuniones familiares.",
         "estructura": "Madera maciza álamo estacionado, encolado y con escuadras",
         "cincha": "elástica multifilamento",
-        "relleno_asientos": "Asientos: Alta densidad de 15cm de altura. 26kgm\u00b3 Cannon, con cierre",
-        "relleno_respaldos": "Respaldos: vellón siliconado. con cierre",
+        "relleno_asientos": " Alta densidad de 15cm de altura. 26kgm\u00b3 Cannon, con cierre",
+        "relleno_respaldos": "vellón siliconado. con cierre",
         "otra_caracteristica": "",
         "descripcion_larga": "",
         "telas": "Cheniles, linos y panas antimanchas",
@@ -408,7 +419,8 @@
         "medidaLancho": "",
         "medidaLprofundidad": "",
         "medidaXLancho": "260",
-        "medidaXLprofundidad": "240"
+        "medidaXLprofundidad": "240",
+        "destacado": "no"
     },
     {
         "id": 13,
@@ -439,7 +451,8 @@
         "medidaLancho": "",
         "medidaLprofundidad": "",
         "medidaXLancho": "",
-        "medidaXLprofundidad": ""
+        "medidaXLprofundidad": "",
+        "destacado": "no"
     },
     {
         "id": 14,
@@ -470,7 +483,8 @@
         "medidaLancho": "",
         "medidaLprofundidad": "",
         "medidaXLancho": "",
-        "medidaXLprofundidad": ""
+        "medidaXLprofundidad": "",
+        "destacado": "no"
     },
     {
         "id": 15,
@@ -501,7 +515,8 @@
         "medidaLancho": "",
         "medidaLprofundidad": "",
         "medidaXLancho": "",
-        "medidaXLprofundidad": ""
+        "medidaXLprofundidad": "",
+        "destacado": "no"
     },
     {
         "id": 16,
@@ -532,7 +547,8 @@
         "medidaLancho": "",
         "medidaLprofundidad": "",
         "medidaXLancho": "",
-        "medidaXLprofundidad": ""
+        "medidaXLprofundidad": "",
+        "destacado": "no"
     },
     {
         "id": 17,
@@ -563,6 +579,7 @@
         "medidaLancho": "",
         "medidaLprofundidad": "",
         "medidaXLancho": "",
-        "medidaXLprofundidad": ""
+        "medidaXLprofundidad": "",
+        "destacado": "no"
     }
 ]

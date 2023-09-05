@@ -9,6 +9,7 @@
     --text-light: #F4EEEA;
     --black: #1E1E1E;
     --white: #fff;
+    --swiper-theme-color: #F55B1C;
 }
 
 * {
@@ -115,6 +116,10 @@
   }
 }
 
+.swiper-scrollbar-drag {
+
+  background: #F55B1C;;
+}
 
 @import './components/Layout/Layout';
 @import './components/Titles/Titles';
@@ -132,4 +137,6 @@
 @import './components/MedidaItem/MedidaItem';
 @import './components/ItemFeatures/ItemFeatures';
 @import './components/ItemDetalles/ItemDetalles';
+@import './components/ProductosRelacionados/ProductosRelacionados';
+@import './components/OtraCard/OtraCard';
 @import './components/Loader/Loader';
