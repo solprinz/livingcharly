@@ -33,9 +33,12 @@ export const Navbar = () => {
   };
 
   return (
-    <AppBar position="static" style={{
-      backgroundColor: "var(--v-2-txt-body-1, #F6973F)",
-    }}>
+    <AppBar
+      position="static"
+      style={{
+        backgroundColor: "#F6973F",
+      }}
+    >
       <Container
         maxWidth="xl"
         style={{
@@ -89,26 +92,32 @@ export const Navbar = () => {
               textTransform: "none",
             }}
           >
-            <img
-              src={LogoMobile}
-              alt="Logo"
-              loading="lazy"
-            />
+            <img src={LogoMobile} alt="Logo" loading="lazy" />
           </Typography>
           {/* el catalogo que quede en menu reducido */}
-<<<<<<< HEAD
           <MenuItem onClick={handleCloseNavMenu} className="categorias">
             <Link to="/catalogo">Catálogo</Link>
-=======
-          <MenuItem onClick={handleCloseNavMenu} className="categorias" style={{
-      marginLeft: "25%",
-    }}>
-            <NavLink to="/catalogo" style={{ fontSize: "18px",marginRight: "5px",
-                fontWeight: "600", letterSpacing: 1
-              }} >{({ isActive, isPending }) => (
-            <span className={isActive ? "active" : ""}>Catálogo</span>
-          )}</NavLink>
->>>>>>> a597e44980e9642befce661a19ec99ecb8aeb128
+          </MenuItem>
+          <MenuItem
+            onClick={handleCloseNavMenu}
+            className="categorias"
+            style={{
+              marginLeft: "25%",
+            }}
+          >
+            <NavLink
+              to="/catalogo"
+              style={{
+                fontSize: "18px",
+                marginRight: "5px",
+                fontWeight: "600",
+                letterSpacing: 1,
+              }}
+            >
+              {({ isActive, isPending }) => (
+                <span className={isActive ? "active" : ""}>Catálogo</span>
+              )}
+            </NavLink>
           </MenuItem>
           <Box
             sx={{
@@ -117,28 +126,53 @@ export const Navbar = () => {
             }}
           >
             <MenuItem onClick={handleCloseNavMenu} className="categorias">
-            <NavLink to="/faq" style={{ fontSize: "18px",marginRight: "5px",
-                fontWeight: "600", letterSpacing: 1
-              }} >{({ isActive, isPending }) => (
-              <span className={isActive ? "active" : ""}>Preguntas frecuentes</span>
-            )}</NavLink>
-
+              <NavLink
+                to="/faq"
+                style={{
+                  fontSize: "18px",
+                  marginRight: "5px",
+                  fontWeight: "600",
+                  letterSpacing: 1,
+                }}
+              >
+                {({ isActive, isPending }) => (
+                  <span className={isActive ? "active" : ""}>
+                    Preguntas frecuentes
+                  </span>
+                )}
+              </NavLink>
             </MenuItem>
             <MenuItem onClick={handleCloseNavMenu} className="categorias">
-            <NavLink to="/nosotros" style={{ fontSize: "18px",marginRight: "5px",
-                fontWeight: "600", letterSpacing: 1
-              }} >{({ isActive, isPending }) => (
-              <span className={isActive ? "active" : ""}>Sobre nosotros</span>
-            )}</NavLink>
-
+              <NavLink
+                to="/nosotros"
+                style={{
+                  fontSize: "18px",
+                  marginRight: "5px",
+                  fontWeight: "600",
+                  letterSpacing: 1,
+                }}
+              >
+                {({ isActive, isPending }) => (
+                  <span className={isActive ? "active" : ""}>
+                    Sobre nosotros
+                  </span>
+                )}
+              </NavLink>
             </MenuItem>
             <MenuItem onClick={handleCloseNavMenu} className="categorias">
-            <NavLink to="/contacto" style={{ fontSize: "18px",marginRight: "5px",
-                fontWeight: "600", letterSpacing: 1
-              }} >{({ isActive, isPending }) => (
-              <span className={isActive ? "active" : ""}>Contacto</span>
-            )}</NavLink>
-             
+              <NavLink
+                to="/contacto"
+                style={{
+                  fontSize: "18px",
+                  marginRight: "5px",
+                  fontWeight: "600",
+                  letterSpacing: 1,
+                }}
+              >
+                {({ isActive, isPending }) => (
+                  <span className={isActive ? "active" : ""}>Contacto</span>
+                )}
+              </NavLink>
             </MenuItem>
           </Box>
           <Box

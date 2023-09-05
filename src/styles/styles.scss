@@ -1,12 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
 
 :root {
-<<<<<<< HEAD
   --primary: #f55b1c;
   --secondary: #00b2b0;
   --gray: #585756;
+  --gray-dark: #474747;
+  --text: #5b6073;
+  --text-light: #f4eeea;
   --black: #1e1e1e;
   --white: #fff;
+  --swiper-theme-color: #f55b1c;
 }
 
 * {
@@ -16,38 +19,19 @@
   font-family: "Jost";
 }
 
-=======
-    --primary: #F55B1C;
-    --secondary: #00B2B0;
-    --gray: #585756;
-    --gray-dark: #474747;
-    --text: #5B6073;
-    --text-light: #F4EEEA;
-    --black: #1E1E1E;
-    --white: #fff;
-    --swiper-theme-color: #F55B1C;
+html {
+  scroll-behavior: smooth;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Jost";
-  }
+a {
+  text-decoration: none;
+}
 
-  html {
-    scroll-behavior: smooth;
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
 .color-primary {
   color: var(--primary);
@@ -72,31 +56,24 @@
 .color-black {
   color: var(--black);
 }
-  
->>>>>>> a597e44980e9642befce661a19ec99ecb8aeb128
+
 .content {
   width: 100%;
   background: var(--white);
   display: flex;
   flex-direction: row;
   gap: 24px;
-  
 
   .left-side {
     display: block;
     width: 116px;
     flex-direction: column;
     align-items: flex-start;
-<<<<<<< HEAD
     gap: 8px;
-=======
-    gap: 8px; 
-    padding: 0 100px;
->>>>>>> a597e44980e9642befce661a19ec99ecb8aeb128
   }
 
   .right-side {
-   max-width: 1300px;
+    max-width: 1300px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -107,11 +84,6 @@
   }
 }
 
-<<<<<<< HEAD
-@import "./components/Layout/Layout";
-@import "./components/Titles/Titles";
-@import "./components/Loader/Loader";
-=======
 @media (max-width: 991px) {
   .content {
     width: 100%;
@@ -119,19 +91,18 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
-    
-  
+
     .left-side {
       display: flex;
       width: 100%;
       flex-direction: column;
       align-items: flex-start;
-      gap: 8px; 
+      gap: 8px;
       position: relative;
     }
-  
+
     .right-side {
-     max-width: 1300px;
+      max-width: 1300px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -143,27 +114,25 @@
 }
 
 .swiper-scrollbar-drag {
-
-  background: #F55B1C;;
+  background: #f55b1c;
 }
 
-@import './components/Layout/Layout';
-@import './components/Titles/Titles';
-@import './components/CategoryList/CategoryList';
-@import './components/CategoryProducts/CategoryProducts';
-@import './components/ProductCard/ProductCard';
-@import './components/ProductList/ProductList';
-@import './components/ProductDetail/ProductDetail';
-@import './components/ItemCard/ItemCard';
-@import './components/ItemBreadcrumb/ItemBreadcrumb';
-@import './components/ItemPictures/ItemPictures';
-@import './components/ItemDescription/ItemDescription';
-@import './components/ItemButton/ItemButton';
-@import './components/ItemPersonalizable/ItemPersonalizable';
-@import './components/MedidaItem/MedidaItem';
-@import './components/ItemFeatures/ItemFeatures';
-@import './components/ItemDetalles/ItemDetalles';
-@import './components/ProductosRelacionados/ProductosRelacionados';
-@import './components/OtraCard/OtraCard';
-@import './components/Loader/Loader';
->>>>>>> a597e44980e9642befce661a19ec99ecb8aeb128
+@import "./components/Layout/Layout";
+@import "./components/Titles/Titles";
+@import "./components/CategoryList/CategoryList";
+@import "./components/CategoryProducts/CategoryProducts";
+@import "./components/ProductCard/ProductCard";
+@import "./components/ProductList/ProductList";
+@import "./components/ProductDetail/ProductDetail";
+@import "./components/ItemCard/ItemCard";
+@import "./components/ItemBreadcrumb/ItemBreadcrumb";
+@import "./components/ItemPictures/ItemPictures";
+@import "./components/ItemDescription/ItemDescription";
+@import "./components/ItemButton/ItemButton";
+@import "./components/ItemPersonalizable/ItemPersonalizable";
+@import "./components/MedidaItem/MedidaItem";
+@import "./components/ItemFeatures/ItemFeatures";
+@import "./components/ItemDetalles/ItemDetalles";
+@import "./components/ProductosRelacionados/ProductosRelacionados";
+@import "./components/OtraCard/OtraCard";
+@import "./components/Loader/Loader";

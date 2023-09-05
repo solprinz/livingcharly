@@ -33,11 +33,7 @@ export const menuRoutes = [
   },
   {
     id: "faq",
-<<<<<<< HEAD
-    path: "/faq",
-=======
     path: "/preguntas-frecuentes",
->>>>>>> a597e44980e9642befce661a19ec99ecb8aeb128
     Element: Faq,
   },
   {

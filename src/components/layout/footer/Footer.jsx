@@ -1,12 +1,7 @@
-<<<<<<< HEAD
-import { BannerInfo } from "../../bannerInfo/BannerInfo";
-import "../../../styles/styles.scss";
-=======
-import "../layout.css";
 import LogoFull from "/logo-full-vector.png";
 import LogoFacebook from "/Logo Facebook.svg";
 import LogoIG from "/Logo IG.svg";
->>>>>>> a597e44980e9642befce661a19ec99ecb8aeb128
+import { BannerInfo } from "../../bannerInfo/BannerInfo";
 
 export const Footer = () => {
   return (
@@ -35,11 +30,7 @@ export const Footer = () => {
                   />
                 </a>
                 <a href="https://www.instagram.com">
-                  <img
-                    src={LogoIG}
-                    alt=""
-                    style={{ padding: "12px" }}
-                  />
+                  <img src={LogoIG} alt="" style={{ padding: "12px" }} />
                 </a>
               </div>
             </div>
