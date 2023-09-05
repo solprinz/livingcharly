@@ -11,9 +11,14 @@ export const menuRoutes = [
     path: "/",
     Element: Home,
   },
-  {
+  /*   {
     id: "catalogo",
     path: "/category/:categoryName",
+    Element: ProductList,
+  }, */
+  {
+    id: "catalogo",
+    path: "/catalogo",
     Element: ProductList,
   },
   {
@@ -28,7 +33,7 @@ export const menuRoutes = [
   },
   {
     id: "faq",
-    path: "/FAQ",
+    path: "/faq",
     Element: Faq,
   },
   {

@@ -10,7 +10,7 @@ import Container from "@mui/material/Container";
 import "@fontsource/jost";
 
 import MenuItem from "@mui/material/MenuItem";
-import "../../../index.css";
+import "../../../styles/styles.scss";
 import { Link } from "react-router-dom";
 
 export const Navbar = () => {
@@ -34,7 +34,7 @@ export const Navbar = () => {
       <Container
         maxWidth="xl"
         style={{
-          backgroundColor: "var(--v-2-txt-body-1, #F6973F)",
+          backgroundColor: "#F6973F",
         }}
       >
         <Toolbar disableGutters>
@@ -63,7 +63,6 @@ export const Navbar = () => {
                 width: "172px",
                 height: "64px",
                 margin: "10px",
-                /*   marginRight: "100px", */
               }}
             />
           </Typography>
@@ -79,7 +78,7 @@ export const Navbar = () => {
               flexGrow: 1,
               fontFamily: "Jost",
               fontWeight: 400,
-              /*  letterSpacing: ".3rem", */
+
               color: "inherit",
               textDecoration: "none",
               textTransform: "none",
@@ -93,7 +92,7 @@ export const Navbar = () => {
           </Typography>
           {/* el catalogo que quede en menu reducido */}
           <MenuItem onClick={handleCloseNavMenu} className="categorias">
-            <Link to="/productList">Catálogo</Link>
+            <Link to="/catalogo">Catálogo</Link>
           </MenuItem>
           <Box
             sx={{

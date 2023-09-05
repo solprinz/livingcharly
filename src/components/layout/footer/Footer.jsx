@@ -1,8 +1,10 @@
-import "../layout.css";
+import { BannerInfo } from "../../bannerInfo/BannerInfo";
+import "../../../styles/styles.scss";
 
 export const Footer = () => {
   return (
     <>
+      <BannerInfo />
       <div className="container-fluid">
         <div className="footer " style={{ textAlign: "left" }}>
           <div className="row">

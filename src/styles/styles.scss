@@ -1,18 +1,18 @@
 :root {
-    --primary: #F55B1C;
-    --secondary: #00B2B0;
-    --gray: #585756;
-    --black: #1E1E1E;
-    --white: #fff;
+  --primary: #f55b1c;
+  --secondary: #00b2b0;
+  --gray: #585756;
+  --black: #1e1e1e;
+  --white: #fff;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Jost";
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost";
+}
+
 .content {
   width: 100%;
   background: var(--white);
@@ -27,7 +27,7 @@
     padding-top: 32px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 8px; 
+    gap: 8px;
   }
 
   .right-side {
@@ -39,7 +39,6 @@
   }
 }
 
-
-@import './components/Layout/Layout';
-@import './components/Titles/Titles';
-@import './components/Loader/Loader';
+@import "./components/Layout/Layout";
+@import "./components/Titles/Titles";
+@import "./components/Loader/Loader";
