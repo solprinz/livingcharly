@@ -13,7 +13,7 @@ export const menuRoutes = [
   },
   /*   {
     id: "catalogo",
-    path: "/category/:categoryName",
+    path: "/catalogo",
     Element: ProductList,
   }, */
   {
@@ -23,7 +23,7 @@ export const menuRoutes = [
   },
   {
     id: "productDetail",
-    path: "/productDetail/:id",
+    path: "/producto/:urlString",
     Element: ProductDetail,
   },
   {
@@ -33,7 +33,11 @@ export const menuRoutes = [
   },
   {
     id: "faq",
+<<<<<<< HEAD
     path: "/faq",
+=======
+    path: "/preguntas-frecuentes",
+>>>>>>> a597e44980e9642befce661a19ec99ecb8aeb128
     Element: Faq,
   },
   {

@@ -8,10 +8,13 @@ import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import "@fontsource/jost";
-
+import { NavLink } from "react-router-dom";
 import MenuItem from "@mui/material/MenuItem";
 import "../../../styles/styles.scss";
 import { Link } from "react-router-dom";
+import LogoFull from "/logo-full-vector.png";
+import LogoWhite from "/full-white-vector.png";
+import LogoMobile from "/logo-mobile-vector.png";
 
 export const Navbar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -30,7 +33,9 @@ export const Navbar = () => {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" style={{
+      backgroundColor: "var(--v-2-txt-body-1, #F6973F)",
+    }}>
       <Container
         maxWidth="xl"
         style={{
@@ -56,7 +61,7 @@ export const Navbar = () => {
             }}
           >
             <img
-              src="../../../../img/Variante=Logo Full White Vector.png"
+              src={LogoWhite}
               alt="Logo"
               loading="lazy"
               style={{
@@ -85,14 +90,25 @@ export const Navbar = () => {
             }}
           >
             <img
-              src="../../../../img/Variante=Logo Mobile Vector.png"
+              src={LogoMobile}
               alt="Logo"
               loading="lazy"
             />
           </Typography>
           {/* el catalogo que quede en menu reducido */}
+<<<<<<< HEAD
           <MenuItem onClick={handleCloseNavMenu} className="categorias">
             <Link to="/catalogo">Catálogo</Link>
+=======
+          <MenuItem onClick={handleCloseNavMenu} className="categorias" style={{
+      marginLeft: "25%",
+    }}>
+            <NavLink to="/catalogo" style={{ fontSize: "18px",marginRight: "5px",
+                fontWeight: "600", letterSpacing: 1
+              }} >{({ isActive, isPending }) => (
+            <span className={isActive ? "active" : ""}>Catálogo</span>
+          )}</NavLink>
+>>>>>>> a597e44980e9642befce661a19ec99ecb8aeb128
           </MenuItem>
           <Box
             sx={{
@@ -101,13 +117,28 @@ export const Navbar = () => {
             }}
           >
             <MenuItem onClick={handleCloseNavMenu} className="categorias">
-              <Link to="/faq">Preguntas frecuentes</Link>
+            <NavLink to="/faq" style={{ fontSize: "18px",marginRight: "5px",
+                fontWeight: "600", letterSpacing: 1
+              }} >{({ isActive, isPending }) => (
+              <span className={isActive ? "active" : ""}>Preguntas frecuentes</span>
+            )}</NavLink>
+
             </MenuItem>
             <MenuItem onClick={handleCloseNavMenu} className="categorias">
-              <Link to="/nosotros">Sobre nosotros</Link>
+            <NavLink to="/nosotros" style={{ fontSize: "18px",marginRight: "5px",
+                fontWeight: "600", letterSpacing: 1
+              }} >{({ isActive, isPending }) => (
+              <span className={isActive ? "active" : ""}>Sobre nosotros</span>
+            )}</NavLink>
+
             </MenuItem>
             <MenuItem onClick={handleCloseNavMenu} className="categorias">
-              <Link to="/contacto">Contacto</Link>
+            <NavLink to="/contacto" style={{ fontSize: "18px",marginRight: "5px",
+                fontWeight: "600", letterSpacing: 1
+              }} >{({ isActive, isPending }) => (
+              <span className={isActive ? "active" : ""}>Contacto</span>
+            )}</NavLink>
+             
             </MenuItem>
           </Box>
           <Box

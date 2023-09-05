@@ -1,0 +1,19 @@
+ [
+    {
+        "value": "sofa",
+        "label": "Sofá"
+    },
+    {
+        "value": "sofa-cama",
+        "label": "Sofá Cama"
+    },
+    {
+        "value": "esquineros",
+        "label": "Esquineros"
+    },
+    {
+        "value": "poltronas",
+        "label": "Poltronas"
+    }
+]
+  
