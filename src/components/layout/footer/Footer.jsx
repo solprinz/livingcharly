@@ -7,12 +7,10 @@ import Correo from "../../../assets/Correo.svg";
 import Whatsapp from "../../../assets/Whatsapp.svg";
 import Telefono from "../../../assets/Telefono.svg";
 import { BannerInfo } from "../../bannerInfo/BannerInfo";
-import { DataContacto } from "../../dataContacto/DataContacto";
 
 export const Footer = () => {
   return (
     <>
-      <DataContacto />
       <BannerInfo />
       <div className="container-fluid">
         <div className="footer" style={{ textAlign: "left" }}>
