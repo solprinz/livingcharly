@@ -3,11 +3,13 @@ import vectorImage from '../../assets/Vector.svg';
 
 const ProductCard = ({url_string, nombre_producto,  descripcion_corta,  picture1,  medida}) => {
 
+    const baseUrl = 'https://living.eproweb.net/products/'
+
     return (
          <div className = "card-catalogo">
             <Link to={`/producto/${url_string}`}>
                 <div className='product-img' style={{ 
-                    backgroundImage: `url(${picture1})`,backgroundRepeat:"no-repeat", backgroundSize:"cover"
+                    backgroundImage: `url(${baseUrl + picture1})`,backgroundRepeat:"no-repeat", backgroundSize:"cover"
                     }}>
                 </div>
                 <div className="card-data">

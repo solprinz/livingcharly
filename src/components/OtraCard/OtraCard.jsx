@@ -4,6 +4,9 @@ import vectorImage from "../../assets/Vector.svg";
 import { SwiperSlide } from "swiper/react";
 
 const OtraCard = ({ url_string, nombre_producto, picture1, medida }) => {
+
+  const baseUrl = 'https://living.eproweb.net/products/'
+
   return (
     
       <div className="card-destacados">
@@ -11,7 +14,7 @@ const OtraCard = ({ url_string, nombre_producto, picture1, medida }) => {
           <div
             className="destacado-img"
             style={{
-              backgroundImage: `url(${picture1})`,
+              backgroundImage: `url(${baseUrl + picture1})`,
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
             }}

@@ -12,6 +12,8 @@ const ProductosRelacionados = ({categoria} ) => {
 
     const [productosRelacionados, setProductosRelacionados] = useState([])
 
+    
+
     pedirDatos()
     .then((res) => {
         setProductosRelacionados( res.filter((prode) => prode.destacado === 'si') )
