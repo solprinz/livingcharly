@@ -14,15 +14,15 @@ const ProductosRelacionados = ({categoria} ) => {
 
     pedirDatos()
     .then((res) => {
-        setProductosRelacionados( res.filter((prode) => prode.categoria === categoria) )
+        setProductosRelacionados( res.filter((prode) => prode.destacado === 'si') )
     })
     .catch((err) => console.log(err))
     .finally(() => setLoading(false))
       
     return (
         <div>
-            <Titles title={'Productos Relacionados'} subtitle={''} /> 
-            <div className="content swiper">
+            <Titles title={'Productos Destacados'} subtitle={''} /> 
+            <div className="content">
                 <div className="destacados">
                 {
                     loading

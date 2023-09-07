@@ -1,7 +1,6 @@
-import { useState } from "react"
+
 import vectorImage from '../../assets/Vector.svg';
-
-
+import gearImage from '../../assets/Gear.svg';
 
 const MedidaItem = ({medida, medidaMancho, medidaMprofundidad, medidaLancho, medidaLprofundidad, medidaXLancho, medidaXLprofundidad, otra_caracteristica, categoria}) => {
 
@@ -50,16 +49,17 @@ const MedidaItem = ({medida, medidaMancho, medidaMprofundidad, medidaLancho, med
 
                     otra_caracteristica !== '' && 
                     (
-                    categoria === 'Sofá' || categoria === 'Esquineros' ?
+                        otra_caracteristica.length < 48 ?
                      
                     <div className="medida-card">
-                        <span><img src={vectorImage} alt="medida" /> </span>
-                        <p className="medidas"> {otra_caracteristica}</p>
+                        <span><img src={gearImage} alt="medida" /> <br/> </span>
+                        <p className="medidas"> {otra_caracteristica} </p>
                         
                     </div>
                     :
                     <div className="medida-card">
-                        <span><img src={vectorImage} alt="medida" /> {otra_caracteristica}</span>
+                        <span style={{paddingBottom: '3px'}}  ><img src={gearImage} alt="medida" />
+                         {otra_caracteristica} </span>
                     </div>
                     )
                 }

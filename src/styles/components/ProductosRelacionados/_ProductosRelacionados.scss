@@ -1,9 +1,17 @@
 .destacados {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 80px;
+    overflow-x: scroll; // scroll only within the grid, not entire page
+  -webkit-overflow-scrolling: touch; // better scrolling on touch  
 }
+
+.destacados::-webkit-scrollbar  {
+        display: none;
+}
+
 

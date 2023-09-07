@@ -10,9 +10,7 @@ import Container from "@mui/material/Container";
 import "@fontsource/jost";
 import { NavLink } from "react-router-dom";
 import MenuItem from "@mui/material/MenuItem";
-import "../../../styles/styles.scss";
 import { Link } from "react-router-dom";
-import LogoFull from "/logo-full-vector.png";
 import LogoWhite from "/full-white-vector.png";
 import LogoMobile from "/logo-mobile-vector.png";
 

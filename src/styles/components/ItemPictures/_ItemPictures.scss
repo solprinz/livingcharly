@@ -15,6 +15,7 @@
 
         img {
             max-width: 100%;
+            width: 100%;
             height: auto;
         }
     }
@@ -30,6 +31,12 @@
         img {
             max-width: 30%;
             height: auto;
+            cursor: pointer;
+            opacity: .6;
+        }
+
+        img:hover {
+            opacity: 1;
         }
     }
 
@@ -81,6 +88,10 @@
         flex-grow: 0;
         flex-shrink: 0;
         flex-basis: 60%;
+
+        .main-picture {
+
+        }
     
     }
 }

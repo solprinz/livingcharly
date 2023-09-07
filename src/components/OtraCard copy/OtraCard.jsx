@@ -5,7 +5,7 @@ import { SwiperSlide } from "swiper/react";
 
 const OtraCard = ({ url_string, nombre_producto, picture1, medida }) => {
   return (
-    
+    <SwiperSlide>
       <div className="card-destacados">
         <Link to={`/producto/${url_string}`}>
           <div
@@ -32,7 +32,7 @@ const OtraCard = ({ url_string, nombre_producto, picture1, medida }) => {
           </div>
         </Link>
       </div>
- 
+    </SwiperSlide>
   );
 };
 
