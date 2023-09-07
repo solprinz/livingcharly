@@ -10,7 +10,7 @@ import Telefono from "../../assets/Telefono.svg";
 export const DataContacto = () => {
   return (
     <>
-      <div className="container">
+     
         <div className="data-contacto">
           <div>
             <div className="data-title">Sucursales</div>
@@ -66,7 +66,7 @@ export const DataContacto = () => {
             </div>
           </div>
         </div>
-      </div>
+      
     </>
   );
 };

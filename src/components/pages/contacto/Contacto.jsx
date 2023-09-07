@@ -1,6 +1,5 @@
 import Titles from "../../Titles/Titles";
 import { DataContacto } from "../../dataContacto/DataContacto";
-import "../../../styles/styles.scss";
 
 export const Contacto = () => {
   return (

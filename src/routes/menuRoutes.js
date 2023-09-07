@@ -11,11 +11,6 @@ export const menuRoutes = [
     path: "/",
     Element: Home,
   },
-  /*   {
-    id: "catalogo",
-    path: "/catalogo",
-    Element: ProductList,
-  }, */
   {
     id: "catalogo",
     path: "/catalogo",

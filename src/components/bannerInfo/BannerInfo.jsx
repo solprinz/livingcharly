@@ -2,17 +2,18 @@ export const BannerInfo = () => {
   return (
     <>
       <div
-        className="container"
+        className="container-fluid"
         style={{
           display: "flex",
-          maxWidth: "1440px",
+          /* maxWidth: "1440px", */
           minWidth: "328px",
-          padding: "40px ",
+          padding: "80px 116px",
+         /*  gap: "40px 24px", */
           gap: "40px 24px",
           flexWrap: "wrap",
           backgroundColor: "#faf5c4",
           color: "#585756",
-          justifyContent: "center",
+          justifyContent: "space-around",
         }}
       >
         <div className="row">
@@ -33,10 +34,10 @@ export const BannerInfo = () => {
                 </svg>
               </div>
               <div>
-                <p style={{ fontSize: "18px" }}>
+                <p style={{ fontSize: "20px" }}>
                   <strong>Calidad y comodidad</strong>
                 </p>
-                <p style={{ fontSize: "14px" }}>
+                <p style={{ fontSize: "16px" }}>
                   Inversión en confort duradero
                 </p>
               </div>
@@ -62,10 +63,10 @@ export const BannerInfo = () => {
                 </svg>
               </div>
               <div>
-                <p style={{ fontSize: "18px" }}>
+                <p style={{ fontSize: "20px" }}>
                   <strong>Garantía extendida</strong>
                 </p>
-                <p style={{ fontSize: "14px" }}>Hasta 4 años</p>
+                <p style={{ fontSize: "16px" }}>Hasta 4 años</p>
               </div>
             </div>
           </div>
@@ -89,15 +90,15 @@ export const BannerInfo = () => {
                 </svg>
               </div>
               <div>
-                <p style={{ fontSize: "18px" }}>
+                <p style={{ fontSize: "20px" }}>
                   <strong>Envíos a domicilio</strong>
                 </p>
-                <p style={{ fontSize: "14px" }}>A todo el país</p>
+                <p style={{ fontSize: "16px" }}>A todo el país</p>
               </div>
             </div>
           </div>
         </div>
-        <div className="row ">
+        <div className="row">
           <div className="col-md">
             <div style={{ display: "flex", minWidth: "250px" }}>
               <div>
@@ -115,10 +116,10 @@ export const BannerInfo = () => {
                 </svg>
               </div>
               <div>
-                <p style={{ fontSize: "18px" }}>
+                <p style={{ fontSize: "20px" }}>
                   <strong>Asesoramiento</strong>
                 </p>
-                <p style={{ fontSize: "14px" }}>Atención personalizada</p>
+                <p style={{ fontSize: "16px" }}>Atención personalizada</p>
               </div>
             </div>
           </div>
