@@ -7,7 +7,7 @@ export const Faq = () => {
     <div>
       <Titles title={"Información útil"} subtitle={"PREGUNTAS FRECUENTES"} />
       <div className="content">
-        <div className="left-side" style={{ width: "354px" }}>
+        <div className="left-side" style={{ width: "40%" }}>
           <DataContacto />
         </div>
         <div className="right-side" style={{ marginBottom: "100px" }}>
