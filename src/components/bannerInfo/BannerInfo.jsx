@@ -7,9 +7,9 @@ export const BannerInfo = () => {
           display: "flex",
           /* maxWidth: "1440px", */
           minWidth: "328px",
-          padding: "80px 116px",
-         /*  gap: "40px 24px", */
-          gap: "40px 24px",
+          padding: "60px 116px",
+          /*  gap: "40px 24px", */
+          gap: "40px 20px",
           flexWrap: "wrap",
           backgroundColor: "#faf5c4",
           color: "#585756",
@@ -18,7 +18,7 @@ export const BannerInfo = () => {
       >
         <div className="row">
           <div className="col-md">
-            <div style={{ display: "flex", minWidth: "250px" }}>
+            <div style={{ display: "flex", minWidth: "240px" }}>
               <div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +47,7 @@ export const BannerInfo = () => {
 
         <div className="row ">
           <div className="col-md">
-            <div style={{ display: "flex", minWidth: "250px" }}>
+            <div style={{ display: "flex", minWidth: "240px" }}>
               <div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +74,7 @@ export const BannerInfo = () => {
 
         <div className="row ">
           <div className="col-md">
-            <div style={{ display: "flex", minWidth: "250px" }}>
+            <div style={{ display: "flex", minWidth: "240px" }}>
               <div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -100,7 +100,7 @@ export const BannerInfo = () => {
         </div>
         <div className="row">
           <div className="col-md">
-            <div style={{ display: "flex", minWidth: "250px" }}>
+            <div style={{ display: "flex", minWidth: "240px" }}>
               <div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
