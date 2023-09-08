@@ -6,12 +6,12 @@ import Horarios from "../../../assets/Horarios.svg";
 import Correo from "../../../assets/Correo.svg";
 import Whatsapp from "../../../assets/Whatsapp.svg";
 import Telefono from "../../../assets/Telefono.svg";
-import { BannerInfo } from "../../bannerInfo/BannerInfo";
+
 
 export const Footer = () => {
   return (
     <>
-      <BannerInfo />
+      
       <div className="container-fluid">
         <div className="footer" style={{ textAlign: "left" }}>
           <div className="row">

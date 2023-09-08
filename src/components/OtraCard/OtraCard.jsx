@@ -10,7 +10,7 @@ const OtraCard = ({ url_string, nombre_producto, picture1, medida }) => {
   return (
     
       <div className="card-destacados">
-        <Link to={`/producto/${url_string}`}>
+        <Link to={`/producto/${url_string}`} >
           <div
             className="destacado-img"
             style={{
