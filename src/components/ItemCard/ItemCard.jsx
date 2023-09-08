@@ -5,6 +5,7 @@ import ItemPictures from '../ItemPictures/ItemPictures'
 import ItemDescription from '../ItemDescription/ItemDescription'
 import ItemDetalles from '../ItemDetalles/ItemDetalles'
 import InformationImage from '../../assets/Information.svg';
+import WhatsApp from '../WhatsApp/WhatsApp'
 
 
 const ItemCard = ({ nombre_producto,  descripcion_corta, estructura, cincha,  relleno_asientos, relleno_respaldos, relleno, descripcion_larga, otra_caracteristica, patas1, patas2, patas3, telas, picture1, picture2, picture3, picture4, medida, medidas, medidaMancho, medidaMprofundidad, medidaLancho, medidaLprofundidad, medidaXLancho, medidaXLprofundidad, categoria}) => {
@@ -21,6 +22,7 @@ const ItemCard = ({ nombre_producto,  descripcion_corta, estructura, cincha,  re
             <div className="dudas">
             <img src={InformationImage} alt="Informacion Living Charly" /><Link to="/preguntas-frecuentes">¿Dudas? Consultá nuestra sección de Preguntas Frecuentes</Link>
             </div>
+            <WhatsApp mensaje={nombre_producto} />
         </div>
     )
 }
