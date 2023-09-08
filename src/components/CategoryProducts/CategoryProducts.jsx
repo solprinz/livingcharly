@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from 'react'
 import ProductCard from '../ProductCard/ProductCard'
 import { pedirDatos } from '../../helpers/pedirDatos'
+import WhatsApp from '../WhatsApp/WhatsApp'
 
 
 const CategoryProducts = ( {value, label} ) => {
@@ -23,6 +24,7 @@ const CategoryProducts = ( {value, label} ) => {
             productos.map((prod) => <ProductCard key={prod.id} {...prod}/>)
         }
        </div>
+       <WhatsApp mensaje={'Página Productos'} />
         
       </div>
       
