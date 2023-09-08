@@ -1,4 +1,3 @@
-
 import * as React from "react";
 import {
   ListSubheader,
@@ -11,7 +10,7 @@ import {
 import { ExpandLess, ExpandMore } from "@mui/icons-material";
 
 const FaqContainer = ({ category, question, answer }) => {
-  const [open, setOpen] = React.useState(true);
+  const [open, setOpen] = React.useState(false);
 
   const handleClick = () => {
     setOpen(!open);
@@ -22,8 +21,6 @@ const FaqContainer = ({ category, question, answer }) => {
       sx={{
         width: "100%",
         maxWidth: 1200,
-        bgcolor: "background.paper",
-        alignItems: "flex-start",
         color: "#1e1e1e",
       }}
       component="nav"
@@ -32,7 +29,7 @@ const FaqContainer = ({ category, question, answer }) => {
         <ListSubheader
           component="div"
           id="nested-list-subheader"
-          sx={{ color: " #f6973f", fontSize: "18px" }}
+          sx={{ color: " #f6973f", fontSize: "20px", padding: 0 }}
         >
           {category}
         </ListSubheader>
@@ -40,14 +37,17 @@ const FaqContainer = ({ category, question, answer }) => {
     >
       <ListItemText
         sx={{
-          height: "auto",
-          borderTop: " 2px solid #f4f0ec",
-          paddingTop: "5px",
+          height: "20px",
         }}
       >
         <ListItemButton
           onClick={handleClick}
-          style={{ alignItems: "flex-end" }}
+          sx={{
+            pl: 0,
+            borderTop: " 2px solid #f4f0ec",
+            fontSize: "18px",
+            width: "auto",
+          }}
         >
           {question}
           {open ? <ExpandLess /> : <ExpandMore />}
@@ -55,8 +55,8 @@ const FaqContainer = ({ category, question, answer }) => {
       </ListItemText>
 
       <Collapse in={open} timeout="auto" unmountOnExit>
-        <List component="div" disablePadding sx={{ pl: 4 }}>
-          <ListItemText>
+        <List component="div" disablePadding sx={{ pl: 2, fontSize: "16px" }}>
+          <ListItemText sx={{ pt: 4 }}>
             {answer} <ListItemButton />
           </ListItemText>
         </List>

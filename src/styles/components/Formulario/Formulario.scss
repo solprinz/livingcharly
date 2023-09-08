@@ -1,0 +1,16 @@
+.form-input {
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(211, 206, 202, 0.7);
+  display: flex;
+  height: 40px;
+  padding: 8px;
+  /*   align-items: center; */
+  gap: 8px;
+  /*   max-width: 560px; */
+  width: auto;
+  margin-bottom: 20px;
+}
+.form-label {
+  font-size: 14px;
+}
