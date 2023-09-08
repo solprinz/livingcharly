@@ -1,12 +1,10 @@
 import { useEffect, useState } from "react"
 
-
-
 const useMobile = () => {
     const [isMobile, setIsMobile] = useState(null)
 
     const calcMobile = () => {
-        if (window.innerWidth <= 768) {
+        if (window.innerWidth <= 360) {
             setIsMobile(true)
         
         } else {

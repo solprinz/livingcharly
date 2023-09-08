@@ -11,34 +11,38 @@ const categoryOptions = [
 
 const CategoryList = () => {
 
-  const [activeSection, setActiveSection] = useState('sofa');
+  const [activeSection, setActiveSection] = useState('');
+  const [activeLink, setActiveLink] = useState('sofa')
+  
   
   const sections = useRef([]);
-  console.log('activeSection ' + activeSection)
+  
  
   const handleScroll = () => {
     const pageYOffset = window.pageYOffset
-    console.log('pageYOffset '+ pageYOffset)
+    
     let newActiveSection = null
 
     sections.current.forEach((section) => {
 
       const sectionOffsetTop = section.offsetTop
-      console.log('sectionOffsetTop '+ sectionOffsetTop)
+ 
       const sectionHeight = section.offsetHeight
-      console.log('sectionHeight '+ sectionHeight)
+     
       /* newActiveSection = section.id */
-      console.log('newActiveSection '+ newActiveSection)
+      
 
-      if (pageYOffset >= sectionOffsetTop && pageYOffset 
+      if (pageYOffset >= sectionOffsetTop - 500 && pageYOffset 
       <sectionOffsetTop + sectionHeight) {
          newActiveSection = section.id
-        console.log('newActiveSection ' + newActiveSection)
+        
         setActiveSection(newActiveSection)
+        setActiveLink(newActiveSection)
       }
     })
 
     setActiveSection(newActiveSection)
+    setActiveLink(newActiveSection)
 
   }
 
@@ -49,9 +53,9 @@ const CategoryList = () => {
     return () => {
       window.removeEventListener('scroll', handleScroll)
     }
-  }, [])
+  }, [activeSection])
 
-  const [activeLink, setActiveLink] = useState('sofa')
+  
 
   const renderList = () => {
     return categoryOptions.map((option) => {

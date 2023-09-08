@@ -11,7 +11,7 @@ const WhatsApp = ({mensaje}) => {
   return (
     <div className="whatsapp">
       <Link to={`${whatsAppUrl}`}  target="_blank">
-        <img src={WhatsappImage} width="60" height="60" loading="lazy" alt="Whatsapp" />
+        <img src={WhatsappImage} width="80" height="80" loading="lazy" alt="Whatsapp" />
          
       </Link>
   </div>

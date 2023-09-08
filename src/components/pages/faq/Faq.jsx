@@ -1,6 +1,7 @@
 import { DataContacto } from "../../dataContacto/DataContacto";
 import Titles from "../../Titles/Titles";
 import FaqContainer from "./FaqContainer";
+import WhatsApp from "../../WhatsApp/WhatsApp";
 
 export const Faq = () => {
   return (
@@ -93,6 +94,7 @@ export const Faq = () => {
             }
           />
         </div>
+        <WhatsApp mensaje={'Preguntas Frecuentes'} />
       </div>
     </div>
   );

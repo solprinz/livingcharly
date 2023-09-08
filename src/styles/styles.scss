@@ -10,6 +10,7 @@
   --black: #1e1e1e;
   --white: #fff;
   --swiper-theme-color: #f55b1c;
+  --primary-titulos-naranja: #F6973F;
 }
 
 * {
@@ -63,6 +64,7 @@ li {
   display: flex;
   flex-direction: row;
   gap: 24px;
+
 
   .left-side {
     display: block;
@@ -133,6 +135,9 @@ li {
 @import "./components/ProductosRelacionados/ProductosRelacionados";
 @import "./components/OtraCard/OtraCard";
 @import "./components/Loader/Loader";
-@import "./components/DataContacto/DataContacto.scss";
-@import "./components/Formulario/Formulario.scss";
-@import "./components/Whatsapp/Whatsapp.scss";
+@import "./components/DataContacto/DataContacto";
+@import "./components/Formulario/Formulario";
+@import "./components/Whatsapp/Whatsapp";
+@import "./components/Nosotros/Nosotros";
+@import "./components/CategoryContainer/CategoryContainer";
+@import "./components/TitlesMobile/TitlesMobile";
