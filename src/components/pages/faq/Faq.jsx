@@ -1,13 +1,14 @@
 import { DataContacto } from "../../dataContacto/DataContacto";
 import Titles from "../../Titles/Titles";
 import FaqContainer from "./FaqContainer";
+import WhatsApp from "../../WhatsApp/WhatsApp";
 
 export const Faq = () => {
   return (
     <div>
       <Titles title={"Información útil"} subtitle={"PREGUNTAS FRECUENTES"} />
       <div className="content">
-        <div className="left-side" style={{ width: "284px" }}>
+        <div className="left-side" style={{ width: "40%" }}>
           <DataContacto />
         </div>
         <div className="right-side" style={{ marginBottom: "100px" }}>
@@ -93,6 +94,7 @@ export const Faq = () => {
             }
           />
         </div>
+        <WhatsApp mensaje={"Preguntas Frecuentes"} />
       </div>
     </div>
   );

@@ -37,10 +37,7 @@ const ItemPictures = ({picture1, picture2, picture3, picture4, nombre_producto})
                     <img src={baseUrl + picture1} alt={nombre_producto} onMouseEnter={() => bigImage(picture1)}
                     onClick={() => bigImage(picture1)} />
                      }
-                     {picture4 != '' && 
-                    <img src={baseUrl + picture4} alt={nombre_producto} onMouseEnter={() => bigImage(picture4)}
-                    onClick={() => bigImage(picture4)} />
-                     }
+                     
                      
                 
                 </div>

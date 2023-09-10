@@ -5,10 +5,9 @@ export const BannerInfo = () => {
         className="container-fluid"
         style={{
           display: "flex",
-          /* maxWidth: "1440px", */
           minWidth: "328px",
           padding: "60px 116px",
-          /*  gap: "40px 24px", */
+
           gap: "40px 20px",
           flexWrap: "wrap",
           backgroundColor: "#faf5c4",

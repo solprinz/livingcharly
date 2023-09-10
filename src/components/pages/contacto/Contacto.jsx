@@ -1,5 +1,6 @@
 import { Formulario } from "../../Formulario/Formulario";
 import Titles from "../../Titles/Titles";
+import WhatsApp from "../../WhatsApp/WhatsApp";
 import { DataContacto } from "../../dataContacto/DataContacto";
 
 export const Contacto = () => {
@@ -13,6 +14,7 @@ export const Contacto = () => {
         <div className="right-side " style={{ marginBottom: "40px" }}>
           <Formulario />
         </div>
+        <WhatsApp mensaje={""} />
       </div>
     </div>
   );

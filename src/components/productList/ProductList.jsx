@@ -5,6 +5,7 @@ import CategoryList from '../CategoryList/CategoryList'
 import CategoryProducts from '../CategoryProducts/CategoryProducts'
 import Loader from '../Loader/Loader'
 import { pedirCategorias } from '../../helpers/pedirCategorias'
+import CtaPicture from '../CtaPicture/CtaPicture'
 
 export const ProductList = () => {
 
@@ -34,6 +35,9 @@ export const ProductList = () => {
                 }
                 </div>                
             </div>
+
+            <CtaPicture mensaje={"la página de muebles personalizados"}/>
+
         </div>
     )
 }

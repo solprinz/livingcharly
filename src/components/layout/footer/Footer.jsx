@@ -6,12 +6,10 @@ import Horarios from "../../../assets/Horarios.svg";
 import Correo from "../../../assets/Correo.svg";
 import Whatsapp from "../../../assets/Whatsapp.svg";
 import Telefono from "../../../assets/Telefono.svg";
-import { BannerInfo } from "../../bannerInfo/BannerInfo";
 
 export const Footer = () => {
   return (
     <>
-      <BannerInfo />
       <div className="container-fluid">
         <div className="footer" style={{ textAlign: "left" }}>
           <div className="row">
@@ -20,14 +18,14 @@ export const Footer = () => {
               <div className="data-title">¡Seguinos!</div>
 
               <div>
-                <a href="https://wwww.facebook.com/">
+                <a href="https://wwww.facebook.com/LivingCharly">
                   <img
                     src={LogoFacebook}
                     alt=""
                     style={{ padding: "12px 12px 12px 0px" }}
                   />
                 </a>
-                <a href="https://www.instagram.com">
+                <a href="https://www.instagram.com/LivingCharly">
                   <img src={LogoIG} alt="" style={{ padding: "12px" }} />
                 </a>
               </div>

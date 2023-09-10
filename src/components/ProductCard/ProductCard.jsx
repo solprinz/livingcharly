@@ -6,7 +6,7 @@ const ProductCard = ({url_string, nombre_producto,  descripcion_corta,  picture1
     const baseUrl = 'https://living.eproweb.net/products/'
 
     return (
-         <div className = "card-catalogo">
+         <div className="card-catalogo">
             <Link to={`/producto/${url_string}`}>
                 <div className='product-img' style={{ 
                     backgroundImage: `url(${baseUrl + picture1})`,backgroundRepeat:"no-repeat", backgroundSize:"cover"

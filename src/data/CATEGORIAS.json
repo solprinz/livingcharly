@@ -1,19 +1,23 @@
  [
     {
         "value": "sofa",
-        "label": "Sofá"
+        "label": "Sofá",
+        "picture": "genova-185-2-cps.jpeg"
     },
     {
         "value": "sofa-cama",
-        "label": "Sofá Cama"
+        "label": "Sofá Cama",
+        "picture": "sofa-cama-domo-00.jpg"
     },
     {
         "value": "esquineros",
-        "label": "Esquineros"
+        "label": "Esquineros",
+        "picture": "Esquinero-verona-xxl-280m.jpeg"
     },
     {
         "value": "poltronas",
-        "label": "Poltronas"
+        "label": "Poltronas",
+        "picture": "poltrona.jpeg"
     }
 ]
   
