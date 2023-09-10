@@ -10,7 +10,7 @@ export const Contacto = () => {
         <div className="left-side " style={{ width: "504px", marginTop: 0 }}>
           <DataContacto />
         </div>
-        <div className="right-side " style={{ marginBottom: "" }}>
+        <div className="right-side " style={{ marginBottom: "40px" }}>
           <Formulario />
         </div>
       </div>

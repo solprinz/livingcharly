@@ -1,10 +1,10 @@
-import { Boton } from "../Boton/Boton";
+import { Link } from "react-router-dom";
 
 export const Formulario = () => {
   return (
     <>
       <div className="container-fluid">
-        <div className="col" style={{ width: "560px" }}>
+        <div className="form-container ">
           <div className="row">
             <label className="form-label row">Nombre y apellido</label>
           </div>
@@ -18,7 +18,7 @@ export const Formulario = () => {
           </div>
         </div>
 
-        <div className="col">
+        <div className="form-container">
           <div className="row">
             <label className="form-label row">Mail</label>
           </div>
@@ -32,7 +32,7 @@ export const Formulario = () => {
           </div>
         </div>
 
-        <div className="col">
+        <div className="form-container">
           <div className="row">
             <label className="form-label row">Teléfono de contacto</label>
           </div>
@@ -46,7 +46,7 @@ export const Formulario = () => {
           </div>
         </div>
 
-        <div className="col">
+        <div className="form-container">
           <div className="row">
             <label className="form-label row">Asunto</label>
           </div>
@@ -60,7 +60,7 @@ export const Formulario = () => {
           </div>
         </div>
 
-        <div className="col">
+        <div className="form-container">
           <div className="row">
             <label className="form-label row">Mensaje</label>
           </div>
@@ -74,7 +74,17 @@ export const Formulario = () => {
             ></input>
           </div>
         </div>
-        <Boton button={"Enviar Mensaje"} />
+        <div className="item-button">
+          <Link
+            className="button"
+            to=""
+            style={{
+              width: "189px",
+            }}
+          >
+            Enviar Mensaje
+          </Link>
+        </div>
       </div>
     </>
   );
