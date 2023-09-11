@@ -16,16 +16,14 @@
 
         .grilla {
             flex: 1 0 0;
-    /*         min-width: 360px;
-            max-width: 1300px; */
             display: flex;
             padding-bottom: 0px;
             align-items: flex-start;
-            gap: 24px; 
+            /* gap: 24px; */ 
             align-self: stretch;
             flex-wrap: wrap;
             justify-content: space-around;
-            padding: 36px;
+            /* padding: 36px; */
         }
     }
 }
