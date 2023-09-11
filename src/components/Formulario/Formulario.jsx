@@ -1,91 +1,108 @@
-import { Link } from "react-router-dom";
+import { useRef } from "react";
+
+import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
 
 export const Formulario = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_jmr7mnn",
+        "template_8pu4spd",
+        form.current,
+        "NpMUJNVLHoeczYpRM"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    mailEnviado();
+    handleReset();
+  };
+
+  function mailEnviado() {
+    Swal.fire({
+      title: `Su consulta ha sido enviada. `,
+      icon: "success",
+    });
+  }
+
+  const handleReset = () => {
+    Array.from(document.querySelectorAll("input")).forEach(
+      (input) => (input.value = "")
+    );
+    this.setState({
+      itemvalues: [{}],
+    });
+  };
   return (
-    <>
-      <div className="container-fluid">
+    <div className="container-fluid">
+      <form ref={form} onSubmit={sendEmail}>
         <div className="form-container ">
           <div className="row">
-            <label className="form-label row">Nombre y apellido</label>
+            <label className="form-label row">Nombre y Apellido</label>
           </div>
           <div className="row">
             <input
               type="text"
-              id="nombre"
-              placeholder=""
+              name="user_name"
               className="form-input"
-            ></input>
+              required
+            />
           </div>
         </div>
 
-        <div className="form-container">
+        <div className="form-container ">
           <div className="row">
-            <label className="form-label row">Mail</label>
+            <label className="form-label row">Email</label>
           </div>
           <div className="row">
             <input
               type="email"
-              id="nombre"
-              placeholder=""
+              name="user_email"
               className="form-input"
-            ></input>
+              required
+            />
           </div>
         </div>
 
-        <div className="form-container">
-          <div className="row">
-            <label className="form-label row">Teléfono de contacto</label>
-          </div>
-          <div className="row">
-            <input
-              type="text"
-              id="nombre"
-              placeholder=""
-              className="form-input"
-            ></input>
-          </div>
-        </div>
-
-        <div className="form-container">
-          <div className="row">
-            <label className="form-label row">Asunto</label>
-          </div>
-          <div className="row">
-            <input
-              type="text"
-              id="nombre"
-              placeholder=""
-              className="form-input"
-            ></input>
-          </div>
-        </div>
-
-        <div className="form-container">
+        <div className="form-container ">
           <div className="row">
             <label className="form-label row">Mensaje</label>
           </div>
           <div className="row">
             <input
               type="text"
-              id="nombre"
-              placeholder=""
+              name="message"
               className="form-input"
-              style={{ height: "144px" }}
-            ></input>
+              style={{ height: "150px" }}
+              required
+            />
           </div>
         </div>
-        <div className="item-button">
-          <Link
-            className="button"
-            to=""
-            style={{
-              width: "189px",
-            }}
+
+        <div
+          style={{
+            width: "189px",
+          }}
+        >
+          <button
+            type="submit"
+            value="Enviar Mensaje"
+            className="submit-button"
           >
-            Enviar Mensaje
-          </Link>
+            Enviar mensaje
+          </button>
         </div>
-      </div>
-    </>
+      </form>
+    </div>
   );
 };

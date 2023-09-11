@@ -43,9 +43,14 @@ export const DataContacto = () => {
             <img src={Whatsapp} style={{ marginRight: "10px" }} />
             +54 9 2614 72-7258
           </div>
-          <div>
+          <div className="data-padding">
             <img src={Correo} style={{ marginRight: "10px" }} />
-            contacto@livingcharly.com
+            <a
+              href="mailto:contacto@livingcharly.com?subject=Consulta&body=Hola%20Living%20Charly%2C%20quisiera%20realizarte%20una%20consulta%20sobre%20"
+              className="correo "
+            >
+              contacto@livingcharly.com
+            </a>
           </div>
         </div>
         <div>

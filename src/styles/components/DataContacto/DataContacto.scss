@@ -1,10 +1,9 @@
 .data-contacto {
   display: flex;
-  width: 328px;
+  width: 200px;
   padding: 15px 0px 16px 0px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 24px;
 }
 
 .data-title {
@@ -15,4 +14,9 @@
 
 .data-padding {
   padding-bottom: 16px;
+  color: black;
+}
+
+.data-padding a {
+  color: black;
 }
