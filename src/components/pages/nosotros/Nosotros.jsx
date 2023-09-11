@@ -7,8 +7,13 @@ import CategoryContainer from "../../CategoryContainer/CategoryContainer";
 import useMobile from "../../../hooks/useMobile"
 import TitlesMobile from "../../TitlesMobile/TitlesMobile";
 import NosotrosImage from '../../../assets/NosotrosMobile.png';
+import { useEffect } from "react"
 
 export const Nosotros = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   
   const isMobile = useMobile()
 

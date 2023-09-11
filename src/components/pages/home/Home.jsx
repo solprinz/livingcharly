@@ -8,8 +8,13 @@ import { Testimonials } from "../../Testimonials/Testimonials";
 import { Contacto } from "../../pages/contacto/Contacto";
 import WhatsApp from "../../WhatsApp/WhatsApp";
 import CategoryContainer from "../../CategoryContainer/CategoryContainer";
+import { useEffect } from "react"
 
 export const Home = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   const telefono = '5491155746175'
 

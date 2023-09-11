@@ -8,6 +8,10 @@ import ProductosRelacionados from '../ProductosRelacionados/ProductosRelacionado
 
 export const ProductDetail = () => {
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     const [item, setItem] = useState(null)
     const [loading, setLoading] = useState(true)
 
@@ -19,9 +23,11 @@ export const ProductDetail = () => {
         pedirDatos()
             .then((res) => {
                 setItem(res.find((prod) => prod.url_string === urlString))
+                window.scrollTo(0, 0)
             })
             .catch((err) => console.log(err))
             .finally(() => setLoading(false))
+
     }, [urlString])
 
     return (

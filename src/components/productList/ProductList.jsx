@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Titles from '../Titles/Titles'
 import CategoryList from '../CategoryList/CategoryList'
 import CategoryProducts from '../CategoryProducts/CategoryProducts'
@@ -8,6 +8,10 @@ import { pedirCategorias } from '../../helpers/pedirCategorias'
 import CtaPicture from '../CtaPicture/CtaPicture'
 
 export const ProductList = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
 
     const [loading, setLoading] = useState(true)
 

@@ -2,8 +2,14 @@ import { DataContacto } from "../../dataContacto/DataContacto";
 import Titles from "../../Titles/Titles";
 import FaqContainer from "./FaqContainer";
 import WhatsApp from "../../WhatsApp/WhatsApp";
+import { useEffect } from "react"
 
 export const Faq = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div>
       <Titles title={"Información útil"} subtitle={"PREGUNTAS FRECUENTES"} />
