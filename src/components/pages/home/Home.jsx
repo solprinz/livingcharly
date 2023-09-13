@@ -23,6 +23,7 @@ export const Home = () => {
   const whatsAppUrl = `https://wa.me/${telefono}?text=Hola%20Living%20Charly%20te%20contacto%20por%20${mensaje}`;
 
   return (
+    <>
     <div className="container-fluid">
       {/* Hero */}
       <div className="hero">
@@ -92,11 +93,8 @@ export const Home = () => {
         </div>
 
         <Contacto />
-
-        <WhatsApp mensaje={'Página Inicio Living Charlie'} />
-
-
     </div>
-
+    <WhatsApp mensaje={'Página Inicio Living Charlie'} />
+    </>
   );
 };

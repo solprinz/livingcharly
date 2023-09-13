@@ -7,6 +7,14 @@
   align-content: flex-start;
   flex-wrap: wrap;
   background-color: #ffffeb;
+
+  .data-title a {
+    color: #f6973f;
+  }
+
+  .data-padding a {
+    color: var(--black);
+  }
 }
 
 .categorias {

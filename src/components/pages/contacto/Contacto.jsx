@@ -20,7 +20,7 @@ export const Contacto = () => {
         <div className="right-side " style={{ marginBottom: "40px" }}>
           <Formulario />
         </div>
-        <WhatsApp mensaje={""} />
+        
       </div>
     </div>
   );
