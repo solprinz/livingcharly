@@ -8,8 +8,6 @@ import Correo from "../../../assets/Correo.svg";
 import Whatsapp from "../../../assets/Whatsapp.svg";
 import Telefono from "../../../assets/Telefono.svg";
 
-
-
 export const Footer = () => {
   return (
     <>
@@ -57,11 +55,11 @@ export const Footer = () => {
             </div>
           </div>
           <div>
-            <div className="data-title"><Link to="/catalogo">Catálogo</Link></div>
-            <div className="data-padding"><Link to="/catalogo/#sofa">Sofá</Link></div>
-            <div className="data-padding"><Link to="/catalogo/#sofa-cama">Sofá cama</Link></div>
-            <div className="data-padding"><Link to="/catalogo/#esquineros">Esquineros</Link></div>
-            <div className="data-padding"><Link to="/catalogo/#poltronas">Poltronas</Link></div>
+            <div className="data-title">Catálogo</div>
+            <div className="data-padding">Sofá</div>
+            <div className="data-padding">Sofá cama</div>
+            <div className="data-padding">Esquineros</div>
+            <div className="data-padding">Poltronas</div>
           </div>
           <div>
             <div>
@@ -76,7 +74,12 @@ export const Footer = () => {
               </div>
               <div>
                 <img src={Correo} style={{ marginRight: "10px" }} />
-                contacto@livingcharly.com
+                <a
+                  href="mailto:contacto@livingcharly.com?subject=Consulta&body=Hola%20Living%20Charly%2C%20quisiera%20realizarte%20una%20consulta%20sobre%20"
+                  className="correo"
+                >
+                  contacto@livingcharly.com
+                </a>
               </div>
             </div>
           </div>

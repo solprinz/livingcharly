@@ -11,9 +11,11 @@
   },
   "homepage": "https://living.eproweb.net",
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@fontsource/jost": "^5.0.8",
+    "@googlemaps/react-wrapper": "^1.1.35",
     "@mui/icons-material": "^5.14.7",
     "@mui/material": "^5.14.7",
     "bootstrap": "^3.4.1",
@@ -21,6 +23,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.15.0",
     "react-router-hash-link": "^2.4.3",
+    "sweetalert2": "^11.7.27",
     "swiper": "^6.8.4"
   },
   "devDependencies": {

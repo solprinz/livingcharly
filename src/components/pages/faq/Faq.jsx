@@ -2,13 +2,13 @@ import { DataContacto } from "../../dataContacto/DataContacto";
 import Titles from "../../Titles/Titles";
 import FaqContainer from "./FaqContainer";
 import WhatsApp from "../../WhatsApp/WhatsApp";
-import { useEffect } from "react"
+import { RespuestaRedes } from "./RespuestaRedes";
+import { useEffect } from "react";
 
 export const Faq = () => {
-
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div>
@@ -29,12 +29,10 @@ export const Faq = () => {
             question={"¿Cuentan con stock disponible para entrega inmediata?"}
             answer={"Sí, tenemos stock listo para entrega."}
           />
-
           <FaqContainer
             question={"¿Cómo realizan los traslados?"}
             answer={"Contamos con fletes de confianza a cargo del cliente."}
           />
-
           <FaqContainer
             question={"¿Cómo es la cobertura de la garantía?"}
             answer={
@@ -54,7 +52,6 @@ export const Faq = () => {
               "Sí, somos fabricantes con más de 20 años de experiencia. Personalizamos tus sillones en medidas, tela, color y más."
             }
           />
-
           <FaqContainer
             question={"¿Qué materiales usan?"}
             answer={
@@ -95,9 +92,7 @@ export const Faq = () => {
           <FaqContainer
             category={"Contacto y redes sociales"}
             question={"¿Dónde nos encontramos en redes sociales?"}
-            answer={
-              "Para más detalles, visitá nuestras redes o escribinos directamente: Instagram: @livingcharly -Facebook: /LivingCharly-- Whatsapp: +54 261 472-7258"
-            }
+            answer={<RespuestaRedes />}
           />
         </div>
         <WhatsApp mensaje={"Preguntas Frecuentes"} />

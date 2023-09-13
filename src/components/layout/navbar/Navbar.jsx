@@ -32,7 +32,7 @@ export const Navbar = () => {
 
   return (
     <AppBar
-      position="static"
+      position="sticky"
       style={{
         backgroundColor: "#F6973F",
       }}
@@ -92,7 +92,6 @@ export const Navbar = () => {
           >
             <img src={LogoMobile} alt="Logo" loading="lazy" />
           </Typography>
-          {/* el catalogo que quede en menu reducido */}
 
           <MenuItem
             onClick={handleCloseNavMenu}
@@ -190,7 +189,6 @@ export const Navbar = () => {
 
             <Menu
               id="menu-appbar"
-              /*  className="menu-hamb" */
               anchorEl={anchorElNav}
               anchorOrigin={{
                 vertical: "bottom",
@@ -212,7 +210,7 @@ export const Navbar = () => {
             >
               <MenuItem
                 onClick={handleCloseNavMenu}
-                className="links"
+                className="links menu-hamb"
                 sx={{
                   backgroundColor: "#F6973F",
                 }}
@@ -228,7 +226,7 @@ export const Navbar = () => {
               </MenuItem>
               <MenuItem
                 onClick={handleCloseNavMenu}
-                className="links"
+                className="link-contacto"
                 sx={{ backgroundColor: "#F6973F" }}
               >
                 <Link to="/contacto">Contacto</Link>

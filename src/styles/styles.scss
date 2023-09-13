@@ -10,7 +10,7 @@
   --black: #1e1e1e;
   --white: #fff;
   --swiper-theme-color: #f55b1c;
-  --primary-titulos-naranja: #F6973F;
+  --primary-titulos-naranja: #f6973f;
 }
 
 * {
@@ -65,7 +65,6 @@ li {
   flex-direction: row;
   gap: 24px;
 
-
   .left-side {
     display: block;
     width: 116px;
@@ -98,6 +97,7 @@ li {
       align-items: flex-start;
       gap: 8px;
       position: relative;
+      padding: 0 30px;
     }
 
     .right-side {
