@@ -60,12 +60,12 @@ export const DataContacto = () => {
             <a href="https://www.facebook.com/LivingCharly">
               <img
                 src={LogoFacebook}
-                alt=""
+                alt="Facebook"
                 style={{ padding: "12px 12px 12px 0px" }}
               />
             </a>
             <a href="https://www.instagram.com/LivingCharly">
-              <img src={LogoIG} alt="" style={{ padding: "12px" }} />
+              <img src={LogoIG} alt="Instagram" style={{ padding: "12px" }} />
             </a>
           </div>
         </div>

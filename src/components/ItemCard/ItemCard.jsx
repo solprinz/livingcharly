@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-
 import ItemBreadcrumb from '../ItemBreadcrumb/ItemBreadcrumb'
 import ItemPictures from '../ItemPictures/ItemPictures'
 import ItemDescription from '../ItemDescription/ItemDescription'

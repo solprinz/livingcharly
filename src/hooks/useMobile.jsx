@@ -4,7 +4,7 @@ const useMobile = () => {
     const [isMobile, setIsMobile] = useState(null)
 
     const calcMobile = () => {
-        if (window.innerWidth <= 360) {
+        if (window.innerWidth <= 767) {
             setIsMobile(true)
         
         } else {
