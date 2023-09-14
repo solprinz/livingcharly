@@ -2,14 +2,13 @@ import { Formulario } from "../../Formulario/Formulario";
 import Titles from "../../Titles/Titles";
 import WhatsApp from "../../WhatsApp/WhatsApp";
 import { DataContacto } from "../../dataContacto/DataContacto";
-import { useEffect } from 'react'
+import { useEffect } from "react";
 
 export const Contacto = () => {
-
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
-  
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div>
       <Titles title={"Dejanos tu mensaje"} subtitle={"CONTACTO"} />
