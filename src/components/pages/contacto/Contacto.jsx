@@ -1,4 +1,5 @@
 import { Formulario } from "../../Formulario/Formulario";
+import { Mapa } from "../../Mapa/Mapa";
 import Titles from "../../Titles/Titles";
 import WhatsApp from "../../WhatsApp/WhatsApp";
 import { DataContacto } from "../../dataContacto/DataContacto";
@@ -19,8 +20,11 @@ export const Contacto = () => {
         <div className="right-side " style={{ marginBottom: "40px" }}>
           <Formulario />
         </div>
-        
+
+        <WhatsApp />
       </div>
+
+      <Mapa />
     </div>
   );
 };

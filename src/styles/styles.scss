@@ -13,6 +13,18 @@
   --primary-titulos-naranja: #f6973f;
 }
 
+.mapa-container {
+  display: flex;
+  width: 1440px;
+  flex-direction: column;
+  align-items: center;
+}
+.mapa {
+  align-self: center;
+  display: flex;
+  margin: 10px 50px;
+  justify-content: center;
+}
 * {
   margin: 0;
   padding: 0;
@@ -144,3 +156,4 @@ li {
 @import "./components/Home/Home";
 @import "./components/Testimonials/Testimonials";
 @import "./components/Navigation/Navigation";
+@import url("https://fonts.googleapis.com/css2?family=Jost&family=Titillium+Web:ital,wght@0,400;0,600;1,400&display=swap");

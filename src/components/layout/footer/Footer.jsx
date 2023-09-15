@@ -27,7 +27,11 @@ export const Footer = () => {
                   />
                 </a>
                 <a href="https://www.instagram.com/LivingCharly">
-                  <img src={LogoIG} alt="Instagram Living Charly" style={{ padding: "12px" }} />
+                  <img
+                    src={LogoIG}
+                    alt="Instagram Living Charly"
+                    style={{ padding: "12px" }}
+                  />
                 </a>
               </div>
             </div>

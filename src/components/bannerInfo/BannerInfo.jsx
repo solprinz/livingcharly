@@ -7,7 +7,6 @@ export const BannerInfo = () => {
           display: "flex",
           minWidth: "328px",
           padding: "60px 116px",
-
           gap: "40px 20px",
           flexWrap: "wrap",
           backgroundColor: "#faf5c4",
