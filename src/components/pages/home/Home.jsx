@@ -42,8 +42,8 @@ export const Home = () => {
         <BannerInfo />
 
         {/* INFO CTA */}
-        <div className="nosotros-image-left">
-          <div className="info-container">
+        <div className="nosotros-image-left ">
+          <div className="bg-personalizado info-container ">
             <h2>Tu espacio, tu elección</h2>
             <ul>
               <li>
@@ -94,11 +94,11 @@ export const Home = () => {
                 </p>
               </div>
             </div>
-            <Link to={`/contacto/`} className="btn-cta-primary">
+            {/*  <Link to={`/contacto/`} className="btn-cta-primary">
               Solicitar cotización{" "}
-            </Link>
+            </Link> */}
           </div>
-          <div className="img-container">
+          <div className="img-cotizacion">
             <img
               src={ParisImage}
               alt="Tres décadas de experiencia"
@@ -143,7 +143,7 @@ export const Home = () => {
 
         <Contacto />
 
-        <WhatsApp mensaje={"Página Inicio Living Charlie"} />
+        <WhatsApp mensaje={""} />
       </div>
     </>
   );

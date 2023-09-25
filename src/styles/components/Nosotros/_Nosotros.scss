@@ -1,168 +1,217 @@
 .back-neutral {
-    background-color: #F4F0EC !important;
+  background-color: #f4f0ec !important;
+}
+
+.img-cotizacion {
+  height: 100%;
+  align-self: stretch;
+  /*   padding: 64px 36px; */
+  img {
+    width: 550px;
+    max-width: 100%;
+    height: auto;
+    flex-shrink: 0;
+    object-fit: cover;
+    align-items: center;
+  }
+}
+
+@media (max-width: 787px) {
+  .bg-personalizado {
+    background-image: url("http://localhost:5173/src/assets/Paris.jpg");
+    background-color: white;
+    background-position: center top;
+    background-repeat: no-repeat;
+    opacity: 80%;
+    background-size: 100%;
+    position: relative;
+  }
+  .img-cotizacion {
+    display: none;
+  }
 }
 
 .nosotros-image-left {
+  display: flex;
+  padding: 32px;
+  align-items: flex-start;
+  gap: 48px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: stretch;
+  margin-bottom: 32px;
+  justify-content: space-around;
+
+  .img-container {
+    height: 100%;
+    align-self: stretch;
+    padding: 64px 36px;
+    img {
+      width: 550px;
+      max-width: 100%;
+
+      height: auto;
+      flex-shrink: 0;
+      object-fit: cover;
+      align-items: center;
+    }
+  }
+
+  .info-container {
+    width: 100%;
+
+    h2 {
+      color: var(--black);
+      /* Hero 1 */
+      font-family: DM Serif Display;
+      font-size: 52px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 56px; /* 107.692% */
+      letter-spacing: 1.04px;
+      margin-bottom: 24px;
+      align-items: flex-start;
+    }
+
+    p {
+      color: var(--gray);
+      /* Hero 2 */
+      font-family: Jost;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px; /* 120% */
+    }
+  }
+}
+
+.nosotros {
+  margin-top: 32px;
+
+  h2 {
+    color: var(--black);
+    /* Hero 1 */
+    font-family: DM Serif Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 107.692% */
+    letter-spacing: 1.04px;
+    margin-bottom: 20px;
+    padding: 0px 32px;
+  }
+}
+
+.nosotros-logramos {
+  display: flex;
+  padding: 32px;
+  align-items: center;
+  /* gap: 48px; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: stretch;
+  margin: 32px 0px;
+  justify-content: space-around;
+
+  .logramos-left,
+  .logramos-right {
+    .logramos-info {
+      border-top: 2px solid #f6973f66;
+
+      h4 {
+        color: var(--black);
+        font-family: Jost;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px; /* 120% */
+        padding: 16px;
+      }
+
+      p {
+        color: var(--gray);
+        /* Hero 2 */
+        font-family: Jost;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 120% */
+        padding: 16px;
+      }
+    }
+  }
+}
+
+@media (min-width: 700px) {
+  .nosotros {
+    padding: 32px 86px;
+
+    h2 {
+      color: var(--black);
+      /* Hero 1 */
+      font-family: DM Serif Display;
+      font-size: 52px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 56px; /* 107.692% */
+      letter-spacing: 1.04px;
+      margin-bottom: 20px;
+    }
+
+    .nosotros-image-left {
+      padding: 32px 86px;
+
+      img {
+        width: 580px;
+        height: 466px;
+        object-fit: contain;
+      }
+    }
+
+    .nosotros-logramos {
+      padding: 32px 86px;
+    }
+  }
+}
+
+@media (min-width: 1032px) {
+  h2 {
+    color: var(--black);
+    /* Hero 1 */
+    font-family: DM Serif Display;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 107.692% */
+    letter-spacing: 1.04px;
+    margin-bottom: 20px;
+  }
+  .nosotros-image-left {
     display: flex;
-    padding: 32px;
-    align-items: flex-start;
+    padding: 56px 116px;
+    align-items: center;
     gap: 48px;
     flex-direction: row;
     flex-wrap: wrap;
     align-self: stretch;
     margin-bottom: 32px;
     justify-content: space-around;
- 
 
     .img-container {
-        height: 100%;
-        align-self: stretch;
-        padding: 64px 36px;
-        img {
-            width: 550px;
-            max-width: 100%;
- 
-            height: auto;
-            flex-shrink: 0;
-            object-fit: cover;
-            align-items: center;
-        }
+      width: 47%;
+      img {
+        width: 100%;
+
+        flex-shrink: 0;
+        object-fit: cover;
+        align-items: center;
+      }
     }
 
     .info-container {
-        width: 100%;
+      width: 47%;
 
-        h2 {
-            color: var(--black);
-            /* Hero 1 */
-            font-family: DM Serif Display;
-            font-size: 52px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 56px; /* 107.692% */
-            letter-spacing: 1.04px;
-            margin-bottom: 24px;
-            align-items: flex-start;
-        }
-
-        p {
-            color: var(--gray);
-            /* Hero 2 */
-            font-family: Jost;
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 24px; /* 120% */
-
-        }
-    }
-
-}
-
-.nosotros {
-    margin-top: 32px;
-
-    h2 {
-        color: var(--black);
-        /* Hero 1 */
-        font-family: DM Serif Display;
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 56px; /* 107.692% */
-        letter-spacing: 1.04px;
-        margin-bottom: 20px;
-        padding: 0px 32px;
-    
-    }
-   
-}
-
-
-
-.nosotros-logramos {
-    display: flex;
-    padding: 32px;
-    align-items: center;
-    /* gap: 48px; */
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-self: stretch;
-    margin: 32px 0px;
-    justify-content: space-around;
-
-    .logramos-left, .logramos-right {
-
-        .logramos-info {
-            border-top: 2px solid #F6973F66;
-
-            h4 {
-                color: var(--black);
-                font-family: Jost;
-                font-size: 20px;
-                font-style: normal;
-                font-weight: 600;
-                line-height: 24px; /* 120% */
-                padding: 16px;
-            }
-
-            p {
-                color: var(--gray);
-                /* Hero 2 */
-                font-family: Jost;
-                font-size: 20px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 24px; /* 120% */
-                padding: 16px;
-              
-            }
-        }
-    }
-}
-
-@media (min-width: 700px) {
-
-    .nosotros {
-
-        padding: 32px 86px;
-
-        h2 {
-            color: var(--black);
-            /* Hero 1 */
-            font-family: DM Serif Display;
-            font-size: 52px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 56px; /* 107.692% */
-            letter-spacing: 1.04px;
-            margin-bottom: 20px;
-           
-        }
-        
-        .nosotros-image-left {
-            padding: 32px 86px;
-
-            img {
-                width: 580px;
-                height: 466px;
-                object-fit: contain;
-            }
-        }
-    
-        .nosotros-logramos {
-            padding: 32px 86px;
-        }
-
-    }
-    
-}
-
-
-@media (min-width: 1032px) {
-
-
-    h2 {
+      h2 {
         color: var(--black);
         /* Hero 1 */
         font-family: DM Serif Display;
@@ -172,120 +221,74 @@
         line-height: 56px; /* 107.692% */
         letter-spacing: 1.04px;
         margin-bottom: 20px;
-       
+      }
+
+      p {
+        color: var(--gray);
+        /* Hero 2 */
+        font-family: Jost;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 120% */
+      }
     }
-    .nosotros-image-left {
-        display: flex;
-        padding: 56px 116px;
-        align-items: center;
-        gap: 48px;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-self: stretch;
-        margin-bottom: 32px;
-        justify-content: space-around;
-     
-    
-        .img-container {
-            width: 47%;
-            img {
-                width: 100%;
+  }
 
-                flex-shrink: 0;
-                object-fit: cover;
-                align-items: center;
-            }
+  .nosotros {
+    padding: 32px 116px;
+
+    .nosotros-logramos {
+      display: flex;
+      padding: 32px 0px;
+      align-items: center;
+      gap: 48px;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-bottom: 32px;
+      justify-content: space-around;
+
+      h2 {
+        color: var(--black);
+        /* Hero 1 */
+        font-family: DM Serif Display;
+        font-size: 52px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 56px; /* 107.692% */
+        letter-spacing: 1.04px;
+        margin-bottom: 20px;
+      }
+
+      .logramos-left,
+      .logramos-right {
+        width: 47%;
+
+        .logramos-info {
+          border-top: 2px solid #f6973f66;
+
+          h4 {
+            color: var(--black);
+            font-family: Jost;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 24px; /* 120% */
+            padding: 16px;
+          }
+
+          p {
+            color: var(--gray);
+            /* Hero 2 */
+            font-family: Jost;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 120% */
+            padding: 16px;
+          }
         }
-    
-        .info-container {
-            width: 47%;
-    
-            h2 {
-                color: var(--black);
-                /* Hero 1 */
-                font-family: DM Serif Display;
-                font-size: 52px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 56px; /* 107.692% */
-                letter-spacing: 1.04px;
-                margin-bottom: 20px;
-            }
-    
-            p {
-                color: var(--gray);
-                /* Hero 2 */
-                font-family: Jost;
-                font-size: 20px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 24px; /* 120% */
-                 
-            }
-        }
-   
+      }
     }
-
-    .nosotros {
-
-        padding: 32px 116px;
-
-        .nosotros-logramos {
-                
-            display: flex;
-            padding: 32px 0px;
-            align-items: center;
-            gap: 48px;
-            flex-direction: row;
-            flex-wrap: wrap;
-            margin-bottom: 32px;
-            justify-content: space-around;
-    
-            h2 {
-                color: var(--black);
-                /* Hero 1 */
-                font-family: DM Serif Display;
-                font-size: 52px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 56px; /* 107.692% */
-                letter-spacing: 1.04px;
-                margin-bottom: 20px;
-            }
-    
-            .logramos-left, .logramos-right {
-                width: 47%;
-    
-                .logramos-info {
-                    border-top: 2px solid #F6973F66;
-    
-                    h4 {
-                        color: var(--black);
-                        font-family: Jost;
-                        font-size: 20px;
-                        font-style: normal;
-                        font-weight: 600;
-                        line-height: 24px; /* 120% */
-                        padding: 16px;
-                    }
-    
-                    p {
-                        color: var(--gray);
-                        /* Hero 2 */
-                        font-family: Jost;
-                        font-size: 20px;
-                        font-style: normal;
-                        font-weight: 400;
-                        line-height: 24px; /* 120% */
-                        padding: 16px;
-                    
-                    }
-                }
-            }
-        }
-        
-    }
-
-
-
+  }
 }
