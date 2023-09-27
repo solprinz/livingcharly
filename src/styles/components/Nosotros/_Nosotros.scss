@@ -161,17 +161,13 @@
 
 @media (max-width: 787px) {
   .bg-personalizado {
-    /* background-image: url('http://localhost:5173/src/assets/Paris.jpg');
-    background-size: cover;
-    position: absolute; */
-    /* opacity: 80%; */
     background-size: 100%;
     position: relative;
     padding: 20px;
   }
   .bg-personalizado::before {
     content: "";
-    background-image: url("http://localhost:5173/src/assets/Paris.jpg");
+    background-image: url("../../../../img/butacaBahia.png");
     background-size: cover;
     position: absolute;
     top: 0px;
