@@ -16,20 +16,7 @@
   }
 }
 
-@media (max-width: 787px) {
-  .bg-personalizado {
-    background-image: url("http://localhost:5173/src/assets/Paris.jpg");
-    background-color: white;
-    background-position: center top;
-    background-repeat: no-repeat;
-    opacity: 80%;
-    background-size: 100%;
-    position: relative;
-  }
-  .img-cotizacion {
-    display: none;
-  }
-}
+
 
 .nosotros-image-left {
   display: flex;
@@ -142,6 +129,8 @@
   }
 }
 
+
+
 @media (min-width: 700px) {
   .nosotros {
     padding: 32px 86px;
@@ -171,6 +160,82 @@
     .nosotros-logramos {
       padding: 32px 86px;
     }
+  }
+}
+
+@media (max-width: 787px) {
+  .bg-personalizado {
+    /* background-image: url('http://localhost:5173/src/assets/Paris.jpg');
+    background-size: cover;
+    position: absolute; */
+    /* opacity: 80%; */
+    background-size: 100%;
+    position: relative;
+    padding: 20px;
+  }
+  .bg-personalizado::before {
+    content: "";
+    background-image: url('http://localhost:5173/src/assets/Paris.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.65;
+  }
+
+  .img-cotizacion {
+    display: none;
+  }
+  
+  .nosotros-image-left .bg-personalizado h2 {
+
+    color: var(--black);
+    position: relative;
+    font-family: DM Serif Display;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 107.692% */
+    letter-spacing: 1.04px;
+    margin-bottom: 24px;
+    align-items: flex-start;
+  }
+
+  .nosotros-image-left .info-container h2 ul {
+    color: var(--black);
+    position: relative;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+
+    li {
+    color: var(--black);
+    position: relative;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+    }
+    .info-container ul {
+      color: var(--black);
+    }
+  }
+
+  .nosotros-image-left .bg-personalizado p {
+    color: var(--black);
+    position: relative;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
   }
 }
 

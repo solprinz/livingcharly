@@ -18,7 +18,7 @@ export const Nosotros = () => {
   return (
     <div>
       {isMobile ? (
-        <TitlesMobile title={""} subtitle={""} image={NosotrosImage} />
+        <TitlesMobile title={"Tres décadas de experiencia y calidad"} subtitle={"SOBRE NOSOTROS"} image={NosotrosImage} />
       ) : (
         <Titles
           title={"Tres décadas de experiencia y calidad"}

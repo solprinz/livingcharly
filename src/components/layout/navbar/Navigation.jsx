@@ -39,9 +39,9 @@ export const Navigation = () => {
 
                 <div className={`nav-elements  ${showNavbar && 'active'}`}>
                     <ul>
-                        <li><NavLink to="/preguntas-frecuentes">Preguntas frecuentes</NavLink></li>
-                        <li><NavLink to="/nosotros">Sobre nosotros</NavLink></li>
-                        <li><NavLink to="/contacto">Contacto</NavLink></li>
+                        <li><NavLink to="/preguntas-frecuentes" onClick={handleShowNavbar}>Preguntas frecuentes</NavLink></li>
+                        <li><NavLink to="/nosotros" onClick={handleShowNavbar}>Sobre nosotros</NavLink></li>
+                        <li><NavLink to="/contacto" onClick={handleShowNavbar}>Contacto</NavLink></li>
                     </ul>
                 </div>
                 <div className="menu-icon" onClick={handleShowNavbar}>

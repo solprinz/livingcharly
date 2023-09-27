@@ -42,7 +42,7 @@ export const Home = () => {
         <BannerInfo />
 
         {/* INFO CTA */}
-        <div className="nosotros-image-left ">
+        <div className="nosotros-image-left">
           <div className="bg-personalizado info-container ">
             <h2>Tu espacio, tu elección</h2>
             <ul>
