@@ -59,11 +59,11 @@ export const Footer = () => {
             </div>
           </div>
           <div>
-            <div className="data-title">Catálogo</div>
-            <div className="data-padding">Sofá</div>
-            <div className="data-padding">Sofá cama</div>
-            <div className="data-padding">Esquineros</div>
-            <div className="data-padding">Poltronas</div>
+            <div className="data-title"> <Link to="/catalogo">Catálogo</Link> </div>
+            <div className="data-padding"><Link to="/catalogo#sofa">Sofá</Link></div>
+            <div className="data-padding"><Link to="/catalogo#sofa-cama">Sofá cama</Link></div>
+            <div className="data-padding"><Link to="/catalogo#esquineros">Esquineros</Link></div>
+            <div className="data-padding"><Link to="/catalogo#poltronas">Poltronas</Link></div>
           </div>
           <div>
             <div>

@@ -19,11 +19,11 @@
             display: flex;
             padding-bottom: 0px;
             align-items: flex-start;
-            /* gap: 24px; */ 
+            gap: 24px; 
             align-self: stretch;
             flex-wrap: wrap;
-            justify-content: space-around;
-            /* padding: 36px; */
+            justify-content: start;
+            padding: 36px;
         }
     }
 }
