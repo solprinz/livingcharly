@@ -31,7 +31,7 @@ export const Faq = () => {
           />
           <FaqContainer
             question={"¿Cómo realizan los traslados?"}
-            answer={"Contamos con fletes de confianza a cargo del cliente."}
+            answer={"Contamos con fletes de confianza."}
           />
           <FaqContainer
             question={"¿Cómo es la cobertura de la garantía?"}
@@ -55,7 +55,7 @@ export const Faq = () => {
           <FaqContainer
             question={"¿Qué materiales usan?"}
             answer={
-              "Madera maciza de álamo y cinchas elásticas en estructura. En respaldos utilizamos goma espuma de alta densidad y vellón siliconado para un confort duradero."
+              "Madera maciza de álamo y cinchas elásticas en estructura. En respaldos utilizamos goma espuma de alta densidad y vellón siliconado para un confort duradero. Algunas de nuestras líneas están fabricadas con resortes zigzag."
             }
           />
           <FaqContainer
@@ -74,7 +74,7 @@ export const Faq = () => {
           <FaqContainer
             question={"¿Qué es el proceso antimanchas?"}
             answer={
-              "Aplicamos un tratamiento textil impermeabilizante que repele líquidos y suciedad para una mayor durabilidad y facilidad de limpieza."
+              "Es un tratamiento textil que repele líquidos y suciedad para un mayor durabilidad y facilidad de limpieza."
             }
           />
           <FaqContainer

@@ -15,7 +15,7 @@ const ItemDescription = ({nombre_producto, descripcion_corta, medida, medidaManc
                 <MedidaItem medida={medida} medidaMancho={medidaMancho} medidaMprofundidad={medidaMprofundidad} medidaLancho={medidaLancho} medidaLprofundidad={medidaLprofundidad} medidaXLancho={medidaXLancho} medidaXLprofundidad={medidaXLprofundidad} otra_caracteristica={otra_caracteristica} categoria={categoria} />
                 
                 <div className="product-description">
-                    {descripcion_corta} <br />
+                   
                     {descripcion_larga}
                 </div>
 

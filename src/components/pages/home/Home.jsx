@@ -3,6 +3,7 @@ import RightImage from "../../../assets/Right.svg";
 import ChevronImage from "../../../assets/Chevron.svg";
 import { BannerInfo } from "../../bannerInfo/BannerInfo";
 import ParisImage from "../../../assets/Paris.jpg";
+import FachadaImage from "../../../assets/fachada.png";
 import TrabajoImage from "../../../assets/Trabajo.png";
 import { Testimonials } from "../../Testimonials/Testimonials";
 import { Contacto } from "../../pages/contacto/Contacto";
@@ -34,7 +35,7 @@ export const Home = () => {
             acompañen en momentos inolvidables.
           </p>
           <Link to={`/catalogo/`} className="btn-cta">
-            Ver Catálogo <img src={RightImage} alt="Catálogo" />{" "}
+            Ver Catálogo <img src={RightImage} alt="Catálogo" />
           </Link>
         </div>
         {/* Hero */}
@@ -42,8 +43,9 @@ export const Home = () => {
         <BannerInfo />
 
         {/* INFO CTA */}
-        <div className="nosotros-image-left">
+        <div className="home-image-left">
           <div className="bg-personalizado info-container ">
+            <br />
             <h2>Tu espacio, tu elección</h2>
             <ul>
               <li>
@@ -100,10 +102,10 @@ export const Home = () => {
           </div>
           <div className="img-cotizacion">
             <img
-              src={ParisImage}
+              src={FachadaImage}
               alt="Tres décadas de experiencia"
-              width="580"
-              height="550"
+              width="500"
+              height="650"
               className="rounded"
             />
           </div>

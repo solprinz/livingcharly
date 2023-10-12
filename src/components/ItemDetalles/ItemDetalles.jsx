@@ -31,9 +31,10 @@ const ItemDetalles = ({relleno_asientos, cincha, estructura, relleno_respaldos, 
                 <h2>Opciones personalizables </h2>
                 <h4>Telas</h4>
                     <ul>
-                        <li>• Cheniles</li>
-                        <li>• Linos</li>
-                        <li>• Panas Anti manchas</li>
+                        <li>• Chenilles</li>
+                        <li>• Linos antimanchas</li>
+                        <li>• Panas antimanchas</li>
+                        <li>• Cuero ecológico</li>
                     </ul>
                 <h4>Patas</h4>
                     <ul>

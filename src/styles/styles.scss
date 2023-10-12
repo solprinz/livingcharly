@@ -94,7 +94,15 @@ li {
   }
 }
 
-@media (max-width: 991px) {
+
+@media (min-width: 451px) and (max-width: 991px)  {
+  .right-side .product .grilla {
+    justify-content: center !important;
+  }
+}
+
+
+@media (max-width: 450px) {
   .content {
     width: 100%;
     background: var(--white);
@@ -123,6 +131,8 @@ li {
     }
   }
 }
+
+
 
 .swiper-scrollbar-drag {
   background: #f55b1c;

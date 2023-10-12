@@ -15,11 +15,11 @@ export const DataContacto = () => {
           <div className="data-title">Sucursales</div>
           <div className="data-padding">
             <img src={Ubicacion} style={{ marginRight: "10px" }} />
-            Av. San Martín 2123, Mendoza
+            Av. San Martín 2123, Ciudad de Mendoza
           </div>
           <div className="data-padding">
             <img src={Ubicacion} style={{ marginRight: "10px" }} />
-            Beltrán 162, Mendoza
+            Beltrán 162, Ciudad de Mendoza
           </div>
 
           <div className="data-title">Horarios</div>
@@ -29,7 +29,7 @@ export const DataContacto = () => {
           </div>
           <div className="data-padding">
             <img src={Horarios} style={{ marginRight: "10px" }} />
-            Sábados 10 a 13 hs
+            Sábados 9 a 13 hs
           </div>
         </div>
 
@@ -46,10 +46,10 @@ export const DataContacto = () => {
           <div className="data-padding">
             <img src={Correo} style={{ marginRight: "10px" }} />
             <a
-              href="mailto:contacto@livingcharly.com?subject=Consulta&body=Hola%20Living%20Charly%2C%20quisiera%20realizarte%20una%20consulta%20sobre%20"
+              href="mailto:livingcharly@gmail.com?subject=Consulta&body=Hola%20Living%20Charly%2C%20quisiera%20realizarte%20una%20consulta%20sobre%20"
               className="correo "
             >
-              contacto@livingcharly.com
+              livingcharly@gmail.com
             </a>
           </div>
         </div>

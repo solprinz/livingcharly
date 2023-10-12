@@ -1,7 +1,9 @@
 import Titles from "../../Titles/Titles";
 import SillaImage from "../../../assets/Silla.jpg";
 import NaturalezaImage from "../../../assets/Naturaleza.png";
-import TrabajoImage from "../../../assets/Trabajo.png";
+import CorteImage from "../../../assets/corte.jpg";
+import TapizadoImage from "../../../assets/tapizado.jpg";
+import CosturaImage from "../../../assets/costura.jpg";
 import WhatsApp from "../../WhatsApp/WhatsApp";
 import CategoryContainer from "../../CategoryContainer/CategoryContainer";
 import useMobile from "../../../hooks/useMobile";
@@ -97,26 +99,29 @@ export const Nosotros = () => {
           </div>
         </div>
 
-        <div className="nosotros-image-left">
+        <div className="nosotros-image-right">
           <div className="info-container">
             <h2>Nuestra fábrica</h2>
             <p>
-              En nuestra fábrica ubicada en la calle Beltrán 162, Ciudad,
-              Mendoza contamos con 6 trabajadores dedicados al armado de la
-              estructura y la tapicería, y 2 especialistas en corte y costura.
               <br />
-              Adelante del área de producción también contamos con un área de
-              venta al público en general, lo que permite que muchos de nuestros
-              clientes puedan conocer de cerca nuestro proceso productivo.
+            ¡Te damos la bienvenida a nuestro rincón de creación en la Calle Beltrán 162, en la Ciudad de Mendoza! <br />
+
+En este lugar especial, nos apasiona crear y dar vida a las estructuras y tapicerías más sorprendentes para superar tus expectativas. <br /> <br />
+
+¿Sabías que también tenemos un espacio especialmente diseñado para vos? <br /> En el frente de nuestra área de producción, hemos creado un acogedor rincón de venta al público y podrás acercarte y ser testigo de nuestro proceso productivo de primera mano. 
+<br /> <br />
+Nos encanta compartir nuestra pasión y permitirte ser parte de nuestro mundo creativo. Visitanos cuando quieras para descubrir la magia que ocurre en nuestra fábrica. ¡Te esperamos con los brazos abiertos!
             </p>
           </div>
           <div className="img-container">
-            <img
-              src={TrabajoImage}
+          <img
+              src={CorteImage}
               alt="Tres décadas de experiencia"
-              width="592"
+              width="500"
               height="456"
+              className="primera-img"
             />
+            
           </div>
         </div>
 
