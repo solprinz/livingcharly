@@ -20,7 +20,11 @@ export const Nosotros = () => {
   return (
     <div>
       {isMobile ? (
-        <TitlesMobile title={"Tres décadas de experiencia y calidad"} subtitle={"SOBRE NOSOTROS"} image={NosotrosImage} />
+        <TitlesMobile
+          title={"Tres décadas de experiencia y calidad"}
+          subtitle={"SOBRE NOSOTROS"}
+          image={NosotrosImage}
+        />
       ) : (
         <Titles
           title={"Tres décadas de experiencia y calidad"}
@@ -104,28 +108,34 @@ export const Nosotros = () => {
             <h2>Nuestra fábrica</h2>
             <p>
               <br />
-            ¡Te damos la bienvenida a nuestro rincón de creación en la Calle Beltrán 162, en la Ciudad de Mendoza! <br />
-
-En este lugar especial, nos apasiona crear y dar vida a las estructuras y tapicerías más sorprendentes para superar tus expectativas. <br /> <br />
-
-¿Sabías que también tenemos un espacio especialmente diseñado para vos? <br /> En el frente de nuestra área de producción, hemos creado un acogedor rincón de venta al público y podrás acercarte y ser testigo de nuestro proceso productivo de primera mano. 
-<br /> <br />
-Nos encanta compartir nuestra pasión y permitirte ser parte de nuestro mundo creativo. Visitanos cuando quieras para descubrir la magia que ocurre en nuestra fábrica. ¡Te esperamos con los brazos abiertos!
+              ¡Te damos la bienvenida a nuestro rincón de creación en la Calle
+              Beltrán 162, en la Ciudad de Mendoza! <br />
+              En este lugar especial, nos apasiona crear y dar vida a las
+              estructuras y tapicerías más sorprendentes para superar tus
+              expectativas. <br /> <br />
+              ¿Sabías que también tenemos un espacio especialmente diseñado para
+              vos? <br /> En el frente de nuestra área de producción, hemos
+              creado un acogedor rincón de venta al público y podrás acercarte y
+              ser testigo de nuestro proceso productivo de primera mano.
+              <br /> <br />
+              Nos encanta compartir nuestra pasión y permitirte ser parte de
+              nuestro mundo creativo. Visitanos cuando quieras para descubrir la
+              magia que ocurre en nuestra fábrica. ¡Te esperamos con los brazos
+              abiertos!
             </p>
           </div>
           <div className="img-container">
-          <img
+            <img
               src={CorteImage}
               alt="Tres décadas de experiencia"
               width="500"
               height="456"
               className="primera-img"
             />
-            
           </div>
         </div>
 
-        <div className="nosotros-image-left back-neutral">
+        {/*  <div className="nosotros-image-left back-neutral">
           <div className="img-container">
             <img
               src={NaturalezaImage}
@@ -146,7 +156,7 @@ Nos encanta compartir nuestra pasión y permitirte ser parte de nuestro mundo cr
             </p>
           </div>
         </div>
-
+ */}
         <CategoryContainer />
       </div>
       <WhatsApp mensaje={""} />
