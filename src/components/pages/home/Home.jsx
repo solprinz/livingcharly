@@ -6,6 +6,7 @@ import ParisImage from "../../../assets/Paris.jpg";
 import FachadaImage from "../../../assets/fachada.png";
 import TrabajoImage from "../../../assets/Trabajo.png";
 import { Testimonials } from "../../Testimonials/Testimonials";
+import CorteImage from "../../../assets/corte.jpg";
 import { Contacto } from "../../pages/contacto/Contacto";
 import WhatsApp from "../../WhatsApp/WhatsApp";
 import CategoryContainer from "../../CategoryContainer/CategoryContainer";
@@ -102,7 +103,7 @@ export const Home = () => {
           </div>
           <div className="img-cotizacion">
             <img
-              src={FachadaImage}
+              src={CorteImage}
               alt="Tres décadas de experiencia"
               width="500"
               height="650"
