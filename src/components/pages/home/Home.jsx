@@ -3,7 +3,6 @@ import RightImage from "../../../assets/Right.svg";
 import ChevronImage from "../../../assets/Chevron.svg";
 import { BannerInfo } from "../../bannerInfo/BannerInfo";
 import EsquineroGold from "../../../../img/Esquinero.jpeg";
-
 import TrabajoImage from "../../../assets/Trabajo.png";
 import { Testimonials } from "../../Testimonials/Testimonials";
 import { Contacto } from "../../pages/contacto/Contacto";
@@ -106,7 +105,7 @@ export const Home = () => {
           <div className="img-cotizacion">
             <img
               src={EsquineroGold}
-              alt="Tres décadas de experiencia"
+              alt=""
               width="500"
               height="650"
               className="rounded"
