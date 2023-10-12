@@ -1,6 +1,12 @@
 import Titles from "../../Titles/Titles";
 import SillaImage from "../../../assets/Silla.jpg";
 import CorteImage from "../../../assets/corte.jpg";
+<<<<<<< HEAD
+=======
+import FachadaImage from "../../../assets/fachada.png";
+import TapizadoImage from "../../../assets/tapizado.jpg";
+import CosturaImage from "../../../assets/costura.jpg";
+>>>>>>> cde89b360d13fb3899ebbded64aad7b0a781114a
 import WhatsApp from "../../WhatsApp/WhatsApp";
 import CategoryContainer from "../../CategoryContainer/CategoryContainer";
 import useMobile from "../../../hooks/useMobile";
@@ -33,7 +39,7 @@ export const Nosotros = () => {
         <div className="nosotros-image-left">
           <div className="img-container">
             <img
-              src={SillaImage}
+              src={FachadaImage}
               alt="Tres décadas de experiencia"
               width="592"
               height="456"
@@ -105,34 +111,28 @@ export const Nosotros = () => {
             <h2>Nuestra fábrica</h2>
             <p>
               <br />
-              ¡Te damos la bienvenida a nuestro rincón de creación en la Calle
-              Beltrán 162, en la Ciudad de Mendoza! <br />
-              En este lugar especial, nos apasiona crear y dar vida a las
-              estructuras y tapicerías más sorprendentes para superar tus
-              expectativas. <br /> <br />
-              ¿Sabías que también tenemos un espacio especialmente diseñado para
-              vos? <br /> En el frente de nuestra área de producción, hemos
-              creado un acogedor rincón de venta al público y podrás acercarte y
-              ser testigo de nuestro proceso productivo de primera mano.
-              <br /> <br />
-              Nos encanta compartir nuestra pasión y permitirte ser parte de
-              nuestro mundo creativo. Visitanos cuando quieras para descubrir la
-              magia que ocurre en nuestra fábrica. ¡Te esperamos con los brazos
-              abiertos!
+            ¡Te damos la bienvenida a nuestro rincón de creación en la Calle Beltrán 162, en la Ciudad de Mendoza! <br />
+
+En este lugar especial, nos apasiona crear y dar vida a las estructuras y tapicerías más sorprendentes para superar tus expectativas. <br /> <br />
+
+¿Sabías que también tenemos un espacio especialmente diseñado para vos? <br /> En el frente de nuestra área de producción, hemos creado un acogedor rincón de venta al público y podrás acercarte y ser testigo de nuestro proceso productivo de primera mano. 
+<br /> <br />
+Nos encanta compartir nuestra pasión y permitirte ser parte de nuestro mundo creativo. Visitanos cuando quieras para descubrir la magia que ocurre en nuestra fábrica. ¡Te esperamos con los brazos abiertos!
             </p>
           </div>
           <div className="img-container">
-            <img
+          <img
               src={CorteImage}
               alt="Tres décadas de experiencia"
               width="500"
               height="456"
               className="primera-img"
             />
+            
           </div>
         </div>
 
-        {/*  <div className="nosotros-image-left back-neutral">
+        <div className="nosotros-image-left back-neutral">
           <div className="img-container">
             <img
               src={NaturalezaImage}
@@ -153,7 +153,7 @@ export const Nosotros = () => {
             </p>
           </div>
         </div>
- */}
+
         <CategoryContainer />
       </div>
       <WhatsApp mensaje={""} />
