@@ -2,15 +2,14 @@ import { Link } from "react-router-dom";
 import RightImage from "../../../assets/Right.svg";
 import ChevronImage from "../../../assets/Chevron.svg";
 import { BannerInfo } from "../../bannerInfo/BannerInfo";
-import ParisImage from "../../../assets/Paris.jpg";
-import FachadaImage from "../../../assets/fachada.png";
+import EsquineroGold from "../../../../img/Esquinero.jpeg";
+
 import TrabajoImage from "../../../assets/Trabajo.png";
 import { Testimonials } from "../../Testimonials/Testimonials";
 import { Contacto } from "../../pages/contacto/Contacto";
 import WhatsApp from "../../WhatsApp/WhatsApp";
 import CategoryContainer from "../../CategoryContainer/CategoryContainer";
 import { useEffect } from "react";
-import { Mapa } from "../../Mapa/Mapa";
 
 export const Home = () => {
   useEffect(() => {
@@ -43,10 +42,12 @@ export const Home = () => {
         <BannerInfo />
 
         {/* INFO CTA */}
-        <div className="home-image-left">
-          <div className="bg-personalizado info-container ">
+        <div className="home-image-left ">
+          <div className="info-container bg-personalizado">
             <br />
-            <h2>Tu espacio, tu elección</h2>
+
+            <h2 style={{ position: "relative" }}>Tu espacio, tu elección</h2>
+
             <ul>
               {/*  <li>
                 • Solicitá muebles personalizados a la medida de tus ideas
@@ -55,11 +56,13 @@ export const Home = () => {
               <li>• Verificá stock</li>
               <li>• Recibí asesoramiento personalizado </li>
             </ul>
-            <p>
-              Escribinos a través de WhatsApp o correo electrónico para ayudarte
-              a dale vida a tus espacios.
-            </p>
-            <div className="cta">
+            <div>
+              <p style={{ position: "relative" }}>
+                Escribinos a través de WhatsApp o correo electrónico para
+                ayudarte a dale vida a tus espacios.
+              </p>
+            </div>
+            <div className="cta" style={{ position: "relative" }}>
               <Link to={`${whatsAppUrl}`} target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -102,7 +105,7 @@ export const Home = () => {
           </div>
           <div className="img-cotizacion">
             <img
-              src={FachadaImage}
+              src={EsquineroGold}
               alt="Tres décadas de experiencia"
               width="500"
               height="650"

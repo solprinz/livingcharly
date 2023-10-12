@@ -2,8 +2,6 @@
   background-color: #f4f0ec !important;
 }
 
-
-
 .img-cotizacion {
   height: 100%;
   align-self: stretch;
@@ -44,7 +42,6 @@
       object-fit: cover;
       align-items: center;
       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-      
     }
   }
 
@@ -101,7 +98,6 @@
       object-fit: cover;
       align-items: center;
       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-      
     }
   }
 
@@ -132,7 +128,6 @@
     }
   }
 }
-
 
 .nosotros-image-right .img-container .superpuesta {
   display: none;
@@ -248,14 +243,15 @@
 
   .bg-personalizado::before {
     content: "";
-    background-image: url("../../../../img/butacaBahia.png");
+    background: url("../../../../img/BatacaBahia2.png");
     background-size: cover;
     position: absolute;
+    background-position: center;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.65;
+    opacity: 0.45;
   }
 
   .img-cotizacion {
@@ -337,7 +333,7 @@
     .img-container {
       width: 47%;
       position: relative;
-      
+
       img {
         width: 500px;
         max-width: 100%;
@@ -399,7 +395,7 @@
     .img-container {
       width: 47%;
       position: relative;
-      
+
       img {
         width: 450px;
         max-width: 100%;
@@ -408,7 +404,6 @@
         object-fit: cover;
         align-items: center;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        
       }
     }
 
@@ -496,5 +491,3 @@
     }
   }
 }
-
-
