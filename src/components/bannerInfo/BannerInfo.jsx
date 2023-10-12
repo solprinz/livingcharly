@@ -9,7 +9,7 @@ export const BannerInfo = () => {
           padding: "60px 116px",
           gap: "40px 20px",
           flexWrap: "wrap",
-          backgroundColor: "#faf5c4",
+          backgroundColor: "rgba(211, 206, 202, 0.7)",
           color: "#585756",
           justifyContent: "space-around",
         }}

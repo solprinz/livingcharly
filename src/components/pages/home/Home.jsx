@@ -49,9 +49,9 @@ export const Home = () => {
             <br />
             <h2>Tu espacio, tu elección</h2>
             <ul>
-              <li>
+              {/*  <li>
                 • Solicitá muebles personalizados a la medida de tus ideas
-              </li>
+              </li> */}
               <li>• Consultá opciones de personalización</li>
               <li>• Verificá stock</li>
               <li>• Recibí asesoramiento personalizado </li>
