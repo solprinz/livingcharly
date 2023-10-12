@@ -2,16 +2,13 @@ import { Link } from "react-router-dom";
 import RightImage from "../../../assets/Right.svg";
 import ChevronImage from "../../../assets/Chevron.svg";
 import { BannerInfo } from "../../bannerInfo/BannerInfo";
-import ParisImage from "../../../assets/Paris.jpg";
-import FachadaImage from "../../../assets/fachada.png";
-import TrabajoImage from "../../../assets/Trabajo.png";
+import EsquineroGold from "../../../../img/Esquinero.jpeg";
+import TrabajoImage from "../../../assets/resto.jpg";
 import { Testimonials } from "../../Testimonials/Testimonials";
-import CorteImage from "../../../assets/corte.jpg";
 import { Contacto } from "../../pages/contacto/Contacto";
 import WhatsApp from "../../WhatsApp/WhatsApp";
 import CategoryContainer from "../../CategoryContainer/CategoryContainer";
 import { useEffect } from "react";
-import { Mapa } from "../../Mapa/Mapa";
 
 export const Home = () => {
   useEffect(() => {
@@ -44,10 +41,12 @@ export const Home = () => {
         <BannerInfo />
 
         {/* INFO CTA */}
-        <div className="home-image-left">
-          <div className="bg-personalizado info-container ">
+        <div className="home-image-left ">
+          <div className="info-container bg-personalizado">
             <br />
-            <h2>Tu espacio, tu elección</h2>
+
+            <h2 style={{ position: "relative" }}>Tu espacio, tu elección</h2>
+
             <ul>
               <li>
                 • Solicitá muebles personalizados a la medida de tus ideas
@@ -56,11 +55,13 @@ export const Home = () => {
               <li>• Verificá stock</li>
               <li>• Recibí asesoramiento personalizado </li>
             </ul>
-            <p>
-              Escribinos a través de WhatsApp o correo electrónico para ayudarte
-              a dale vida a tus espacios.
-            </p>
-            <div className="cta">
+            <div>
+              <p style={{ position: "relative" }}>
+                Escribinos a través de WhatsApp o correo electrónico para
+                ayudarte a dale vida a tus espacios.
+              </p>
+            </div>
+            <div className="cta" style={{ position: "relative" }}>
               <Link to={`${whatsAppUrl}`} target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -103,8 +104,8 @@ export const Home = () => {
           </div>
           <div className="img-cotizacion">
             <img
-              src={CorteImage}
-              alt="Tres décadas de experiencia"
+              src={EsquineroGold}
+              alt=""
               width="500"
               height="650"
               className="rounded"
@@ -128,6 +129,32 @@ export const Home = () => {
             />
           </div>
           <div className="info-container">
+            <h2>Exclusivos sillones a medida para restaurantes</h2>
+            <p>
+            Nuestro equipo de artesanos expertos y diseñadores de interiores trabajará contigo de cerca para crear los sillones perfectos que se ajusten a tus necesidades. 
+            </p>
+            <br />
+            <p>Ya sea que desees un ambiente acogedor y cálido o un toque de elegancia contemporánea, cada detalle se personaliza para encajar a la perfección con la estética de tu restaurante.</p>
+
+            <div className="btn-container">
+              <Link to={`/nosotros/`} className="btn-cta-primary">
+                Nuestra Historia
+                <img src={ChevronImage} alt="Catálogo" />
+              </Link>
+            </div>
+          </div>
+        </div>
+
+{/*         <div className="nosotros-image-left back-neutral home-container">
+          <div className="img-container">
+            <img
+              src={TrabajoImage}
+              alt="Tres décadas de experiencia"
+              width="592"
+              height="456"
+            />
+          </div>
+          <div className="info-container">
             <h2>Historia y experiencia en cada detalle</h2>
             <p>
               Más que muebles, somos historias y pasión por el diseño. Conoce al
@@ -142,7 +169,7 @@ export const Home = () => {
               </Link>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <Contacto />
 

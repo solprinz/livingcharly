@@ -1,6 +1,5 @@
 import Titles from "../../Titles/Titles";
 import SillaImage from "../../../assets/Silla.jpg";
-import NaturalezaImage from "../../../assets/Naturaleza.png";
 import CorteImage from "../../../assets/corte.jpg";
 import FachadaImage from "../../../assets/fachada.png";
 import TapizadoImage from "../../../assets/tapizado.jpg";
@@ -109,45 +108,48 @@ export const Nosotros = () => {
             <h2>Nuestra fábrica</h2>
             <p>
               <br />
-            ¡Te damos la bienvenida a nuestro rincón de creación en la Calle Beltrán 162, en la Ciudad de Mendoza! <br />
-
-En este lugar especial, nos apasiona crear y dar vida a las estructuras y tapicerías más sorprendentes para superar tus expectativas. <br /> <br />
-
-¿Sabías que también tenemos un espacio especialmente diseñado para vos? <br /> En el frente de nuestra área de producción, hemos creado un acogedor rincón de venta al público y podrás acercarte y ser testigo de nuestro proceso productivo de primera mano. 
-<br /> <br />
-Nos encanta compartir nuestra pasión y permitirte ser parte de nuestro mundo creativo. Visitanos cuando quieras para descubrir la magia que ocurre en nuestra fábrica. ¡Te esperamos con los brazos abiertos!
+              ¡Te damos la bienvenida a nuestro rincón de creación en la Calle
+              Beltrán 162, en la Ciudad de Mendoza! <br /> <br />
+              En este lugar especial, nos apasiona crear y dar vida a las
+              estructuras y tapicerías más sorprendentes para superar tus
+              expectativas. 
+              <br /><br />
+              Nos encanta compartir nuestra pasión y permitirte ser parte de
+              nuestro mundo creativo. Visitanos cuando quieras para descubrir la
+              magia que ocurre en nuestra fábrica. 
             </p>
           </div>
           <div className="img-container">
-          <img
-              src={CorteImage}
+            <img
+              src={CosturaImage}
               alt="Tres décadas de experiencia"
               width="500"
               height="456"
               className="primera-img"
             />
-            
           </div>
         </div>
 
         <div className="nosotros-image-left back-neutral">
           <div className="img-container">
             <img
-              src={NaturalezaImage}
+              src={TapizadoImage}
               alt="Tres décadas de experiencia"
               width="592"
               height="456"
             />
           </div>
           <div className="info-container">
-            <h2>Sabías qué...</h2>
+            <h2>¿Sabías qué...</h2>
             <p>
-              En la producción utilizamos madera obtenida de plantaciones, en
-              vez de deforestación. <br />
-              Además las telas restantes de nuestros procesos las destinamos a
-              la realización de diferentes estampados o patchwork. Ya sea para
-              sofá, poltronas o almohadones. También las donamos a grupos o
-              empresas que necesiten cortes pequeños.
+            También tenemos un espacio especialmente diseñado para
+              vos? <br /> <br /> En el frente de nuestra área de producción, hemos
+              creado un acogedor rincón de venta al público y podrás acercarte y
+              ser testigo de nuestro proceso productivo de primera mano.
+              <br /> <br />
+               ¡Te esperamos con los brazos
+              abiertos!
+            
             </p>
           </div>
         </div>
