@@ -31,7 +31,7 @@
   .img-container {
     height: 100%;
     align-self: stretch;
-    padding: 64px 36px;
+    /* padding: 64px 36px; */
     position: relative;
     img {
       width: 500px;
@@ -238,12 +238,12 @@
   .bg-personalizado {
     background-size: 100%;
     position: relative;
-    padding: 20px;
+    /* padding: 20px; */
   }
 
   .bg-personalizado::before {
     content: "";
-    background-image: url("../../../../img/butacaBahia.png");
+    background-image: url("../../../../img/BUTACA-BAHIA2-bg.png");
     background-size: cover;
     position: absolute;
     background-position: center;
