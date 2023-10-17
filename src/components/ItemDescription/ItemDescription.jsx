@@ -40,7 +40,7 @@ const ItemDescription = ({
 
       <ItemFeatures categoria={categoria} />
 
-      <ItemButton />
+      <ItemButton mensaje={nombre_producto} />
     </div>
   );
 };
