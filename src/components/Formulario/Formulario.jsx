@@ -30,8 +30,10 @@ export const Formulario = () => {
 
   function mailEnviado() {
     Swal.fire({
-      title: `Su consulta ha sido enviada. `,
+      title: `Su mensaje ha sido enviado. `,
       icon: "success",
+      iconColor: "#f55b1c",
+      confirmButtonColor: "#f55b1c",
     });
   }
 
