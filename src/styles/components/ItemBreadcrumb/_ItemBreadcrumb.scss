@@ -1,38 +1,33 @@
 .breadcrumb {
-    padding: 32px 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: flex-start;
-    gap: 8px;
+  padding: 32px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: flex-start;
+  gap: 8px;
 
-    p {
-        color: var(--v-2-txt-body-3, #585756);
-        /* V2/Links 1 */
-        font-family: Jost;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px; /* 150% */
+  p {
+    color: var(--v-2-txt-body-3, #585756);
+    /* V2/Links 1 */
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
 
-        a {
-            color: var(--v-2-txt-body-3, #585756);
-          }
-
-        span {
-            color: var(--v-2-txt-body-1, #F6973F);
-
-            
-        }
-
-        svg {
-            fill: var(--v-2-txt-body-1, #F6973F);
-            width: 14px;
-            height: 7px;
-            flex-shrink: 0;
-        }
-
+    a {
+      color: var(--v-2-txt-body-3, #585756);
     }
 
-    
+    span {
+      color: var(--v-2-txt-body-1, --primary-titulos-naranja);
+    }
+
+    svg {
+      fill: var(--v-2-txt-body-1, --primary-titulos-naranja);
+      width: 14px;
+      height: 7px;
+      flex-shrink: 0;
+    }
+  }
 }

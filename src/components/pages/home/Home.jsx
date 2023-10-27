@@ -48,9 +48,6 @@ export const Home = () => {
             <h2 style={{ position: "relative" }}>Tu espacio, tu elección</h2>
 
             <ul>
-              {/* <li>
-                • Solicitá muebles personalizados a la medida de tus ideas
-              </li> */}
               <li>• Consultá opciones de personalización</li>
               <li>• Verificá stock</li>
               <li>• Recibí asesoramiento personalizado </li>
@@ -58,7 +55,7 @@ export const Home = () => {
             <div>
               <p style={{ position: "relative" }}>
                 Escribinos a través de WhatsApp o correo electrónico para
-                ayudarte a dale vida a tus espacios.
+                ayudarte a darle vida a tus espacios.
               </p>
             </div>
             <div className="cta" style={{ position: "relative" }}>
@@ -131,10 +128,16 @@ export const Home = () => {
           <div className="info-container">
             <h2>Exclusivos sillones a medida para restaurantes</h2>
             <p>
-            Nuestro equipo de artesanos expertos y diseñadores de interiores trabajará contigo de cerca para crear los sillones perfectos que se ajusten a tus necesidades. 
+              Nuestro equipo de artesanos expertos y diseñadores de interiores
+              trabajará contigo de cerca para crear los sillones perfectos que
+              se ajusten a tus necesidades.
             </p>
             <br />
-            <p>Ya sea que desees un ambiente acogedor y cálido o un toque de elegancia contemporánea, cada detalle se personaliza para encajar a la perfección con la estética de tu restaurante.</p>
+            <p>
+              Ya sea que desees un ambiente acogedor y cálido o un toque de
+              elegancia contemporánea, cada detalle se personaliza para encajar
+              a la perfección con la estética de tu restaurante.
+            </p>
 
             <div className="btn-container">
               <Link to={`/nosotros/`} className="btn-cta-primary">
@@ -144,33 +147,6 @@ export const Home = () => {
             </div>
           </div>
         </div>
-
-{/*         <div className="nosotros-image-left back-neutral home-container">
-          <div className="img-container">
-            <img
-              src={TrabajoImage}
-              alt="Tres décadas de experiencia"
-              width="592"
-              height="456"
-            />
-          </div>
-          <div className="info-container">
-            <h2>Historia y experiencia en cada detalle</h2>
-            <p>
-              Más que muebles, somos historias y pasión por el diseño. Conoce al
-              equipo detrás de Living Charly y nuestra misión de transformar tu
-              hogar en un refugio de tradición y confort.
-            </p>
-
-            <div className="btn-container">
-              <Link to={`/nosotros/`} className="btn-cta-primary">
-                Nuestra Historia
-                <img src={ChevronImage} alt="Catálogo" />
-              </Link>
-            </div>
-          </div>
-        </div> */}
-
         <Contacto />
 
         <WhatsApp mensaje={""} />

@@ -1,5 +1,3 @@
-import React from "react";
-
 export const Mapa = () => {
   return (
     <div className="container-fluid">

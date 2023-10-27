@@ -1,29 +1,28 @@
 .link-catalogo {
-    display: flex;
-    padding: 8px 116px 50px 32px;
-    justify-content: flex-end;
-    align-items: flex-start;
-    gap: 8px;
-    align-self: stretch;
+  display: flex;
+  padding: 8px 116px 50px 32px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
 
-    a {
-        color: var(--primary-naranja-charly, #F55B1C);
-        text-align: center;
-        font-family: Jost;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 24px; /* 120% */
-        display: inline;
-    }
-    
-    img {
-        display: inline;
-        width: 16px;
-        height: 16px;
-        justify-content: center;
-        align-items: center;
-        padding-left: 4px;
-    }
+  a {
+    color: var(--primary);
+    text-align: center;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 120% */
+    display: inline;
+  }
+
+  img {
+    display: inline;
+    width: 16px;
+    height: 16px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 4px;
+  }
 }
-

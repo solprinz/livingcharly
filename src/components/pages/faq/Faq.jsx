@@ -95,7 +95,7 @@ export const Faq = () => {
             answer={<RespuestaRedes />}
           />
         </div>
-        <WhatsApp mensaje={"Preguntas Frecuentes"} />
+        <WhatsApp mensaje={""} />
       </div>
     </div>
   );

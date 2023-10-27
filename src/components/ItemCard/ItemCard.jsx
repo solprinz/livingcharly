@@ -5,7 +5,6 @@ import ItemDescription from "../ItemDescription/ItemDescription";
 import ItemDetalles from "../ItemDetalles/ItemDetalles";
 import InformationImage from "../../assets/Information.svg";
 import WhatsApp from "../WhatsApp/WhatsApp";
-import ItemButton from "../ItemButton/ItemButton";
 
 const ItemCard = ({
   nombre_producto,

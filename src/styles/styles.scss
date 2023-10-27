@@ -11,20 +11,9 @@
   --white: #fff;
   --swiper-theme-color: #f55b1c;
   --primary-titulos-naranja: #f6973f;
+  --background: #d3cecab3;
 }
 
-.mapa-container {
-  display: flex;
-  width: 1440px;
-  flex-direction: column;
-  align-items: center;
-}
-.mapa {
-  align-self: center;
-  display: flex;
-  margin: 10px 50px;
-  justify-content: center;
-}
 * {
   margin: 0;
   padding: 0;
@@ -94,13 +83,11 @@ li {
   }
 }
 
-
-@media (min-width: 451px) and (max-width: 991px)  {
+@media (min-width: 451px) and (max-width: 991px) {
   .right-side .product .grilla {
     justify-content: center !important;
   }
 }
-
 
 @media (max-width: 450px) {
   .content {
@@ -131,8 +118,6 @@ li {
     }
   }
 }
-
-
 
 .swiper-scrollbar-drag {
   background: #f55b1c;

@@ -7,23 +7,16 @@
 }
 
 .data-title {
-  color: #f6973f;
+  color: var(--primary-titulos-naranja);
   width: 284px;
   padding-bottom: 16px;
 }
 
 .data-padding {
   padding-bottom: 16px;
-  color: black;
+  color: var(--black);
 }
 
 .data-padding a {
-  color: black;
+  color: var(--black);
 }
-
-/* @media (max-width: 500px) {
-  .data-contacto {
-    display: none;
-  }
-}
- */

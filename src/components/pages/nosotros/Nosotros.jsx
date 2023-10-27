@@ -1,6 +1,4 @@
 import Titles from "../../Titles/Titles";
-import SillaImage from "../../../assets/Silla.jpg";
-import CorteImage from "../../../assets/corte.jpg";
 import FachadaImage from "../../../assets/fachada.png";
 import TapizadoImage from "../../../assets/tapizado.jpg";
 import CosturaImage from "../../../assets/costura.jpg";
@@ -112,11 +110,12 @@ export const Nosotros = () => {
               Beltrán 162, en la Ciudad de Mendoza! <br /> <br />
               En este lugar especial, nos apasiona crear y dar vida a las
               estructuras y tapicerías más sorprendentes para superar tus
-              expectativas. 
-              <br /><br />
+              expectativas.
+              <br />
+              <br />
               Nos encanta compartir nuestra pasión y permitirte ser parte de
               nuestro mundo creativo. Visitanos cuando quieras para descubrir la
-              magia que ocurre en nuestra fábrica. 
+              magia que ocurre en nuestra fábrica.
             </p>
           </div>
           <div className="img-container">
@@ -142,14 +141,12 @@ export const Nosotros = () => {
           <div className="info-container">
             <h2>¿Sabías qué...</h2>
             <p>
-            También tenemos un espacio especialmente diseñado para
-              vos? <br /> <br /> En el frente de nuestra área de producción, hemos
-              creado un acogedor rincón de venta al público y podrás acercarte y
-              ser testigo de nuestro proceso productivo de primera mano.
+              También tenemos un espacio especialmente diseñado para vos? <br />{" "}
+              <br /> En el frente de nuestra área de producción, hemos creado un
+              acogedor rincón de venta al público y podrás acercarte y ser
+              testigo de nuestro proceso productivo de primera mano.
               <br /> <br />
-               ¡Te esperamos con los brazos
-              abiertos!
-            
+              ¡Te esperamos con los brazos abiertos!
             </p>
           </div>
         </div>

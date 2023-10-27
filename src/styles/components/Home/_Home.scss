@@ -1,22 +1,28 @@
 .hero {
-    background-image: url('../../../../img/portada.png');
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.30) 5.41%, rgba(0, 0, 0, 0.30) 57.76%, rgba(0, 0, 0, 0.00) 99.75%), url('../../../../img/portada.png'), lightgray 50% / cover no-repeat;
+  background-image: url("../../../../img/portada.png");
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.3) 5.41%,
+      rgba(0, 0, 0, 0.3) 57.76%,
+      rgba(0, 0, 0, 0) 99.75%
+    ),
+    url("../../../../img/portada.png"), lightgray 50% / cover no-repeat;
 
-    height: 500px;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-    color: #fff;
-    padding: 0 20px;
-    align-items: flex-start;
-    flex-shrink: 0;
-    padding: 0px 16px 8px 16px;
+  height: 500px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  color: #fff;
+  padding: 0 20px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  padding: 0px 16px 8px 16px;
 
-    h1 {
-        color: #FCFAF6;
+  h1 {
+    color: #fcfaf6;
     /* Hero 1 */
     font-family: DM Serif Display;
     font-size: 52px;
@@ -27,103 +33,31 @@
     align-self: stretch;
     margin-bottom: 24px;
     text-shadow: 1px 1px 2px black;
-    }
-
-    p {
-        color: #FCFAF6;
-        /* Hero 2 */
-        font-family: Jost;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px; /* 120% */
-        align-self: stretch;
-        margin-bottom: 24px;
-        text-shadow: 1px 1px 2px black;
-      }
-
-      .btn-cta {
-        display: flex;
-        padding: 12px 16px;
-        justify-content: center;
-        align-items: center;
-        gap: 4px;
-        border-radius: 12px;
-        border: 1px solid var(--neutral-f, #FFF);
-        transition: all 0.3s ease-in-out;
-        color: var(--neutral-f, #FFF);
-        text-align: center;
-        /* Botones */
-        font-family: Jost;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 24px; /* 120% */
-        text-shadow: 1px 1px 2px black;
-    
-      }
-      
-      .btn-cta:hover {
-        border: 3px solid var(--primary);
-        color: #fff;
-      }
   }
 
-
-/*   Tu espacio */
-
-  .info-container ul {
-    color: var(--gray);
+  p {
+    color: #fcfaf6;
     /* Hero 2 */
     font-family: Jost;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 120% */
-    margin-bottom: 24px;
-
-    li {
-        margin:0 0 7px 0;
-        position: relative;
-    }
-  }
-
-  .mensaje-whatsapp h2 {
-    color: var(--neutral-parrafo, #585756);
-    /* Prod Title */
-    font-family: Jost;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 48px; /* 150% */
     align-self: stretch;
+    margin-bottom: 24px;
+    text-shadow: 1px 1px 2px black;
   }
 
-  .cta {
-    padding: 48px 0px;
+  .btn-cta {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-
-  }
-
-  .rounded {
-    border-radius: 10px;
-  }
-
-  .btn-cta-primary {
-    margin-top: 20px;
     padding: 12px 16px;
     justify-content: center;
     align-items: center;
     gap: 4px;
     border-radius: 12px;
-    border: 1px solid var(--primary);
-    background: var(--primary);
-    margin: 0 auto;
+    border: 1px solid var(--neutral-f, #fff);
     transition: all 0.3s ease-in-out;
-    color: var(--neutral-f, #FFF);
+    color: var(--neutral-f, #fff);
     text-align: center;
     /* Botones */
     font-family: Jost;
@@ -131,71 +65,192 @@
     font-style: normal;
     font-weight: 600;
     line-height: 24px; /* 120% */
-
+    text-shadow: 1px 1px 2px black;
   }
-  
-  .btn-cta-primary:hover {
+
+  .btn-cta:hover {
     border: 3px solid var(--primary);
     color: #fff;
   }
+}
 
-  .home-container {
-    padding-top: 128px;
-    padding-bottom: 128px;
+/*   Tu espacio */
 
-    .info-container {
+.info-container ul {
+  color: var(--gray);
+  /* Hero 2 */
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 120% */
+  margin-bottom: 24px;
 
-      .btn-container {
-        margin-top: 60px;
+  li {
+    margin: 0 0 7px 0;
+    position: relative;
+  }
+}
 
-        img {
-          padding-top: 3px;
-          padding-left: 10px;
-          width: 16px;
-          height: 16px;
-          justify-content: center;
-          align-items: center;
-          color: #fff;
-          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-         
-        }
+.mensaje-whatsapp h2 {
+  color: var(--neutral-parrafo, #585756);
+  /* Prod Title */
+  font-family: Jost;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px; /* 150% */
+  align-self: stretch;
+}
+
+.cta {
+  padding: 48px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.rounded {
+  border-radius: 10px;
+}
+
+.btn-cta-primary {
+  margin-top: 20px;
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 12px;
+  border: 1px solid var(--primary);
+  background: var(--primary);
+  margin: 0 auto;
+  transition: all 0.3s ease-in-out;
+  color: var(--neutral-f, #fff);
+  text-align: center;
+  /* Botones */
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 120% */
+}
+
+.btn-cta-primary:hover {
+  border: 3px solid var(--primary);
+  color: #fff;
+}
+
+.home-container {
+  padding-top: 128px;
+  padding-bottom: 128px;
+
+  .info-container {
+    .btn-container {
+      margin-top: 60px;
+
+      img {
+        padding-top: 3px;
+        padding-left: 10px;
+        width: 16px;
+        height: 16px;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
       }
-
     }
+  }
+}
 
+.home-image-left {
+  display: flex;
+  padding: 32px;
+  align-items: flex-start;
+  gap: 48px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: stretch;
+  margin-bottom: 32px;
+  justify-content: space-around;
+
+  .img-container {
+    height: 100%;
+    align-self: stretch;
+    padding: 64px 36px;
+    img {
+      width: 500px;
+      max-width: 100%;
+
+      height: auto;
+      flex-shrink: 0;
+      object-fit: cover;
+      align-items: center;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
   }
 
+  .info-container {
+    width: 100%;
+
+    h2 {
+      color: var(--black);
+      /* Hero 1 */
+      font-family: DM Serif Display;
+      font-size: 52px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 56px; /* 107.692% */
+      letter-spacing: 1.04px;
+      margin-bottom: 24px;
+      align-items: flex-start;
+    }
+
+    p {
+      color: var(--gray);
+      /* Hero 2 */
+      font-family: Jost;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px; /* 120% */
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .hero {
+    padding: 0px 16px 8px 116px;
+  }
+}
+
+@media (min-width: 1100px) {
   .home-image-left {
     display: flex;
-    padding: 32px;
-    align-items: flex-start;
-    gap: 48px;
+    padding: 116px 100px 76px;
+    align-items: center;
+    gap: 20px;
     flex-direction: row;
     flex-wrap: wrap;
     align-self: stretch;
     margin-bottom: 32px;
     justify-content: space-around;
-  
+
     .img-container {
-      height: 100%;
-      align-self: stretch;
-      padding: 64px 36px;
+      width: 45%;
       img {
-        width: 500px;
-        max-width: 100%;
-  
-        height: auto;
+        width: 100%;
+
         flex-shrink: 0;
         object-fit: cover;
         align-items: center;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
       }
     }
-  
+
     .info-container {
-      width: 100%;
-  
+      width: 47%;
+
       h2 {
         color: var(--black);
         /* Hero 1 */
@@ -205,10 +260,9 @@
         font-weight: 400;
         line-height: 56px; /* 107.692% */
         letter-spacing: 1.04px;
-        margin-bottom: 24px;
-        align-items: flex-start;
+        margin-bottom: 20px;
       }
-  
+
       p {
         color: var(--gray);
         /* Hero 2 */
@@ -220,72 +274,4 @@
       }
     }
   }
-
-
-
-  @media (min-width: 992px) {
-    .hero {
-      padding: 0px 16px 8px 116px;
-    }
-  }
-
-  @media (min-width: 1100px) {
-    .home-image-left {
-      display: flex;
-      padding: 116px 100px 76px;
-      align-items: center;
-      gap: 20px;
-      flex-direction: row;
-      flex-wrap: wrap;
-      align-self: stretch;
-      margin-bottom: 32px;
-      justify-content: space-around;
-  
-      .img-container {
-        width: 45%;
-        img {
-          width: 100%;
-  
-          flex-shrink: 0;
-          object-fit: cover;
-          align-items: center;
-          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-        }
-      }
-  
-      .info-container {
-        width: 47%;
-  
-        h2 {
-          color: var(--black);
-          /* Hero 1 */
-          font-family: DM Serif Display;
-          font-size: 52px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 56px; /* 107.692% */
-          letter-spacing: 1.04px;
-          margin-bottom: 20px;
-        }
-  
-        p {
-          color: var(--gray);
-          /* Hero 2 */
-          font-family: Jost;
-          font-size: 20px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 24px; /* 120% */
-        }
-      }
-    }
-  
-  }
-
-
-
-
-  
-  
-
-
+}
