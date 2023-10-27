@@ -11,10 +11,10 @@ export const Formulario = () => {
 
     emailjs
       .sendForm(
-        "service_jmr7mnn",
-        "template_8pu4spd",
+        "service_hzd1ufo",
+        "template_kh1kiuc",
         form.current,
-        "NpMUJNVLHoeczYpRM"
+        "DhfWboagkGjdT1zNO"
       )
       .then(
         (result) => {
